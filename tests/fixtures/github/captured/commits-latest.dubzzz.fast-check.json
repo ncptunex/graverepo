@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "endpoint": "/repos/dubzzz/fast-check/commits?per_page=1",
+    "capturedAt": "2026-11-22T13:22:57.993Z",
+    "source": "dubzzz/fast-check",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": [
+      "[0].commit.author.email",
+      "[0].commit.committer.email",
+      "[0].commit.verification.payload (value contained an email address)"
+    ]
+  },
+  "headers": {
+    "link": "<https://api.github.com/repositories/108920680/commits?per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/108920680/commits?per_page=1&page=7144>; rel=\"last\"",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "30",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "30",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "sha": "574ff3b1b2e66c7cf6e7edfb54970b8ba0bbaf82",
+      "node_id": "C_kwDOBn3_aNoAKDU3NGZmM2IxYjJlNjZjN2NmNmU3ZWRmYjU0OTcwYjhiYTBiYmFmODI",
+      "commit": {
+        "author": {
+          "name": "Nicolas DUBIEN",
+          "date": "2026-11-22T10:16:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "date": "2026-11-22T10:16:12Z"
+        },
+        "message": "🐛(codemod) Report unsupported migration patterns (#7642)\n\n## Description\n\n> AI-agent disclosure: this PR was authored by an automated\n> agent (Codex / GPT-6) and has not been\n> line-by-line reviewed by a human before submission.\n\nUnsupported migration patterns currently stay unchanged without telling\nusers what still needs attention. Emit `api.report()` warnings with the\nsource location and a reason when the existing codemods cannot safely\nmigrate a matched pattern.\n\n- Report unsupported `check()` contexts, default imports with\nattributes, Random calls, dynamic generator names, and Unicode flags.\n- Recognize optional Random calls before skipping them, while keeping\nbounded `nextInt()` calls and known generator factories quiet.\n- Extend the existing fixture spec to require a report for every\n`unsupported-` fixture and no reports for the other fixtures. Add\nregression fixtures for the affected branches.\n- Document the warnings and include a patch changeset for\n`@fast-check/codemod`.\n\nWarnings leave unsupported code unchanged and do not fail the CLI.\n\n## Validation\n\n- `pnpm test --run --project @fast-check/codemod` — 153 tests passed.\n- Confirmed the unsupported-report assertions fail against the original\ntransforms.\n- Codemod typecheck, build, and bundle tests passed.\n- Formatting and lint checks passed; lint retains the two existing\nempty-file warnings in `test-bundle/empty.ts` and `test-types/empty.ts`.\n- Verified the built CLI prints the warning and location in a dry run.\n\n## Checklist\n\n— _Don't delete this checklist and make sure you do the following before\nopening the PR_\n\n- [ ] I have a full understanding of every line in this PR — whether the\ncode was hand-written, AI-generated (our [AI\nPolicy](https://github.com/dubzzz/fast-check/blob/main/AI_POLICY.md)),\ncopied from external sources or produced by any other tool\n- [ ] I flagged the impact of my change (minor / patch / major) either\nby running `pnpm run bump` or by following the instructions from the\nchangeset bot\n- [ ] I kept this PR focused on a single concern and did not bundle\nunrelated changes\n- [ ] I followed the [gitmoji](https://gitmoji.dev/) specification for\nthe name of the PR, including the package scope (e.g. `🐛(vitest)\nSomething...`) when the change targets a package other than `fast-check`\n- [ ] I added relevant tests and they would have failed without my PR\n(when applicable)",
+        "tree": {
+          "sha": "d6a27ae0df40cd5b8b843b73ac8fc3d2be170643",
+          "url": "https://api.github.com/repos/dubzzz/fast-check/git/trees/d6a27ae0df40cd5b8b843b73ac8fc3d2be170643"
+        },
+        "url": "https://api.github.com/repos/dubzzz/fast-check/git/commits/574ff3b1b2e66c7cf6e7edfb54970b8ba0bbaf82",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrAsDsCRC1aQ7uu5UhlAAAIWcQAFmB6Qkrkxb6x7X1sRGvIYtX\n7+1g9LNg2fz0LO1B2TCq4SXeKyj09u112gxGUmiDFxuTH2QG3dvWif7dBbySI3cs\neIEcgf0QkuZYa2sZlfPiQAK0w4reTjAvDMMrTahAvsIGEWewmkXkAxG/rWxUa3fO\nOgwwLpg/wsbGTeYU1NVxmKIIsLd3ryjGcIWACNuHp5eHeHawthsg3upMr+qYT8Lm\ngXWhwdX913PC140LSeha1WdBpe/VLx2d+tDBv1v25rprIymsp7D1BHOTztM1qwSx\noGAHdW7zlVkMwe/274uGxwA8Yvhufwqcz92qBvwJp9arEi4d8fHTQ32Nj2PdPN54\n+EEY/YWXfZgGQH+MMWdp2S/fXLzAQbHB2CmNOdPcD/zZYgCJnycVBGCOsQHHbgZ8\nUXpf+hAd91tDcAz/o70u8FJUqPktPFjrWYu7IWr69AUiheTTHcE7bHvIeiB8IVPT\noZE5tAcB6CDdtHSx0K8qrZcVUj8Jikm5mb5fM4HxSSPgNsnWZqgSUlZ4e/RXIF20\nzZ1Oe6pEnISOigXhP5T6DkszuL1Lzo+kZKHqIbCkv2wtx4OtmtYp31AifRDDt5gB\ne5zAyLs/FMYeTQNYBgQYRXPrFrcAhUkTAgZzjnF7mXOZ2q4WvqLpMjXE7Apxd8Le\n235W7ZyQZ5nOQkRAEW9H\n=uWWR\n-----END PGP SIGNATURE-----\n",
+          "verified_at": "2026-11-22T10:16:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/dubzzz/fast-check/commits/574ff3b1b2e66c7cf6e7edfb54970b8ba0bbaf82",
+      "html_url": "https://github.com/dubzzz/fast-check/commit/574ff3b1b2e66c7cf6e7edfb54970b8ba0bbaf82",
+      "comments_url": "https://api.github.com/repos/dubzzz/fast-check/commits/574ff3b1b2e66c7cf6e7edfb54970b8ba0bbaf82/comments",
+      "author": {
+        "login": "dubzzz",
+        "id": 5300235,
+        "node_id": "MDQ6VXNlcjUzMDAyMzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5300235?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dubzzz",
+        "html_url": "https://github.com/dubzzz",
+        "followers_url": "https://api.github.com/users/dubzzz/followers",
+        "following_url": "https://api.github.com/users/dubzzz/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dubzzz/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dubzzz/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dubzzz/subscriptions",
+        "organizations_url": "https://api.github.com/users/dubzzz/orgs",
+        "repos_url": "https://api.github.com/users/dubzzz/repos",
+        "events_url": "https://api.github.com/users/dubzzz/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dubzzz/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d8f93402bc7f32e752925637c2ea954c05249f98",
+          "url": "https://api.github.com/repos/dubzzz/fast-check/commits/d8f93402bc7f32e752925637c2ea954c05249f98",
+          "html_url": "https://github.com/dubzzz/fast-check/commit/d8f93402bc7f32e752925637c2ea954c05249f98"
+        }
+      ]
+    }
+  ]
+}

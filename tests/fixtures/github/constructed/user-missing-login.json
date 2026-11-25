@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Missing required field: a user profile without login, which must fail the schema"
+  },
+  "status": 200,
+  "headers": {},
+  "body": {
+    "id": 1000001,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1000001?v=4",
+    "html_url": "https://github.com/example-user",
+    "type": "User",
+    "name": "Example User",
+    "public_repos": 3
+  }
+}

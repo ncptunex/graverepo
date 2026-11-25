@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Plain 403 that is not a rate limit: requests remain and there is no retry-after header or secondary-limit message"
+  },
+  "status": 403,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "55",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "5",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Forbidden",
+    "documentation_url": "https://docs.github.com/rest",
+    "status": "403"
+  }
+}

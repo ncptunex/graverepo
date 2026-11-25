@@ -1,0 +1,72 @@
+/*
+  Theme tokens. Spacing and radius follow design-system.md section 3.4. Colour roles follow 3.1.
+  Contrast ratios (WCAG, computed 23 Nov 2026) are recorded next to each colour.
+  The typeface is the system font stack (no remote fonts).
+*/
+:root {
+  /* Colour roles (design-system.md 3.1). Dark theme only. */
+  --color-bg: #0f1224; /* deep navy: page */
+  --color-surface: #1b1f3b; /* cards, tombstones, panels */
+  --color-text: #f2f3fa; /* 16.76:1 on bg, 14.53:1 on surface */
+  --color-text-muted: #b9bdd8; /* 10.01:1 on bg, 8.68:1 on surface */
+  --color-primary: #5b3fc4; /* purple: primary actions. White text on it is 7.11:1 */
+  --color-on-primary: #ffffff;
+  --color-lavender: #c3b5ff; /* links, focus ring: 10.04:1 on bg, 8.71:1 on surface */
+  --color-mint: #7be3b0; /* growth, progress, The Living: 10.31:1 on surface */
+  --color-pumpkin: #ffa94d; /* attention, warnings: 8.45:1 on surface */
+  --color-error: #ff9e9e; /* error role, always with an icon and text: 8.15:1 on surface */
+  --color-border: #8d93c4; /* controls and dividers: 6.27:1 on bg, 5.44:1 on surface (needs 3:1) */
+
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radius family (design-system.md 3.4): small for controls, medium for cards and panels. */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Minimum touch target (design-system.md 3.4). */
+  --target-min: 44px;
+
+  /* Page width. Mobile under 48rem, tablet 48rem to 75rem, desktop 75rem and up. The content area is
+     capped at 88rem (1408px) so lines and cards stay comfortable on very wide screens. */
+  --content-max: 88rem;
+  --gutter: var(--space-4);
+
+  /* Moonlit Plot additions (design-system.md 3.1: tints of the approved hues, no new accents).
+     Scenery only. Text keeps using the roles above. Ratios are for --color-text on each. */
+  --color-night-deep: #080a18; /* sky top, ground shadow */
+  --color-violet-deep: #1a1240; /* sky glow, hills */
+  --color-violet-mid: #2a1d5c; /* far hills, button base */
+  --color-stone: #2b2f55; /* tombstone face: text 11.2:1, muted text 6.9:1 */
+  --color-stone-hi: #393e6c; /* tombstone top light: text 8.6:1, muted text 5.3:1 */
+  --color-moon: #e8e4ff; /* moon and ghost body */
+  --color-moss: #254a45; /* moss and grass fill, scenery only */
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-soft: 0 10px 24px rgb(5 6 20 / 0.45);
+  --shadow-lift: 0 14px 28px rgb(5 6 20 / 0.55);}
+
+@media (min-width: 48rem) {
+  :root {
+    --gutter: var(--space-6);
+  }
+}
+
+@media (min-width: 75rem) {
+  :root {
+    --gutter: var(--space-8);
+  }
+}
+
+@media (min-width: 90rem) {
+  :root {
+    --gutter: var(--space-12);
+  }
+}

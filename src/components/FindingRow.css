@@ -1,0 +1,46 @@
+.finding-row {
+  list-style: none;
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid rgb(195 181 255 / 0.3);
+}
+
+.finding-row__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 700;
+}
+
+.finding-row__status {
+  flex: none;
+}
+
+.finding-row__fact,
+.finding-row__interpretation,
+.finding-row__step {
+  margin: var(--space-1) 0 0;
+  overflow-wrap: anywhere;
+}
+
+/* The interpretation is set apart from the fact by an indent, a rule and italics. */
+.finding-row__interpretation {
+  padding-left: var(--space-3);
+  border-left: 3px dotted currentColor;
+  font-style: italic;
+}
+
+.finding-row__interpretation-label {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.finding-row__step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 700;
+}
+
+.finding-row__step-icon {
+  flex: none;
+}

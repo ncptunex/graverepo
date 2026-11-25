@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "endpoint": "/repos/ncptunex/foodstarter/actions/runs?per_page=1",
+    "capturedAt": "2026-11-22T12:56:49.891Z",
+    "source": "ncptunex/foodstarter",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": []
+  },
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "35",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "25",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "total_count": 0,
+    "workflow_runs": []
+  }
+}

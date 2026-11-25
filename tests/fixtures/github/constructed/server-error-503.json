@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "GitHub server error: 503 Service Unavailable"
+  },
+  "status": 503,
+  "headers": {},
+  "body": {
+    "message": "Service Unavailable",
+    "documentation_url": "https://docs.github.com/rest",
+    "status": "503"
+  }
+}

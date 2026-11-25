@@ -1,0 +1,380 @@
+/* Scenery for the Moonlit Plot look. Decoration only: every picture here is hidden from
+   assistive technology and none of it carries text. Colours come from tokens.css. */
+
+/* ---- Ghost mascot ---- */
+.ghost__body {
+  fill: var(--color-moon);
+}
+
+.ghost__eye {
+  fill: var(--color-night-deep);
+}
+
+.ghost__line {
+  fill: none;
+  stroke: var(--color-night-deep);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.ghost__cheek {
+  fill: var(--color-pumpkin);
+  opacity: 0.45;
+}
+
+/* ---- Night sky ---- */
+.night-sky {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--color-night-deep) 0%, var(--color-violet-deep) 62%, var(--color-violet-mid) 100%);
+}
+
+.night-sky svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.night-sky__star {
+  fill: var(--color-moon);
+  opacity: 0.8;
+}
+
+.night-sky__moon {
+  fill: var(--color-moon);
+}
+
+.night-sky__crater {
+  fill: var(--color-lavender);
+  opacity: 0.35;
+}
+
+.night-sky__bat-shape {
+  fill: var(--color-night-deep);
+}
+
+.night-sky__hill--far {
+  fill: var(--color-violet-mid);
+}
+
+.night-sky__hill--near {
+  fill: var(--color-night-deep);
+}
+
+.night-sky__stone path {
+  fill: var(--color-stone-hi);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .night-sky__star--twinkle {
+    animation: night-sky-twinkle 4s ease-in-out infinite alternate;
+  }
+
+  .night-sky__bat--one {
+    animation: night-sky-drift 22s ease-in-out infinite alternate;
+  }
+
+  .night-sky__bat--two {
+    animation: night-sky-drift 28s ease-in-out infinite alternate-reverse;
+  }
+}
+
+@keyframes night-sky-twinkle {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes night-sky-drift {
+  to {
+    translate: -36px 8px;
+  }
+}
+
+/* ---- Garden plot (Rising, The Living) ---- */
+.garden {
+  width: 100%;
+  max-width: 30rem;
+  overflow: hidden;
+  border: 1px solid rgb(195 181 255 / 0.35);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-night-deep), var(--color-violet-deep) 70%, var(--color-violet-mid));
+  box-shadow: var(--shadow-soft);
+}
+
+.garden svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.garden__glow {
+  fill: var(--color-violet-mid);
+  opacity: 0.4;
+  transition: fill 0.8s var(--ease-out), opacity 0.8s var(--ease-out);
+}
+
+.garden[data-stage='4'] .garden__glow {
+  fill: var(--color-mint);
+  opacity: 0.14;
+}
+
+.garden[data-stage='5'] .garden__glow {
+  fill: var(--color-pumpkin);
+  opacity: 0.2;
+}
+
+.garden__ground {
+  fill: var(--color-night-deep);
+}
+
+.garden__stone {
+  fill: var(--color-stone-hi);
+}
+
+.garden__stone-face {
+  fill: var(--color-stone);
+}
+
+.garden__engraving {
+  fill: none;
+  stroke: var(--color-text-muted);
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0.55;
+}
+
+.garden[data-stage='0'] .garden__stone,
+.garden[data-stage='0'] .garden__stone-face {
+  opacity: 0.8;
+}
+
+.garden__ghost {
+  opacity: 0.55;
+  transition: opacity 0.8s var(--ease-out);
+}
+
+.garden[data-stage='3'] .garden__ghost,
+.garden[data-stage='4'] .garden__ghost {
+  opacity: 0.85;
+}
+
+.garden[data-stage='5'] .garden__ghost {
+  opacity: 1;
+}
+
+.garden__layer {
+  opacity: 0;
+  transform: translateY(6px) scale(0.92);
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+}
+
+.garden__layer[data-on='true'] {
+  opacity: 1;
+  transform: none;
+}
+
+.garden__crack {
+  fill: none;
+  stroke: var(--color-night-deep);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.garden__moss {
+  fill: var(--color-moss);
+  stroke: var(--color-mint);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.garden__stem {
+  fill: none;
+  stroke: var(--color-mint);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.garden__petal--pumpkin {
+  fill: var(--color-pumpkin);
+}
+
+.garden__petal--lavender {
+  fill: var(--color-lavender);
+}
+
+.garden__petal--mint {
+  fill: var(--color-mint);
+}
+
+.garden__heart {
+  fill: var(--color-night-deep);
+}
+
+.garden__mushroom-stem {
+  fill: none;
+  stroke: var(--color-moon);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.garden__cap--pumpkin {
+  fill: var(--color-pumpkin);
+}
+
+.garden__cap--lavender {
+  fill: var(--color-lavender);
+}
+
+.garden__spore {
+  fill: var(--color-night-deep);
+  opacity: 0.6;
+}
+
+.garden__post {
+  fill: none;
+  stroke: var(--color-stone-hi);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.garden__lantern-frame {
+  fill: var(--color-stone-hi);
+}
+
+.garden__lantern {
+  fill: var(--color-pumpkin);
+}
+
+.garden__lantern-glow {
+  fill: var(--color-pumpkin);
+  opacity: 0.18;
+}
+
+.garden__firefly {
+  fill: var(--color-mint);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .garden[data-stage='5'] .garden__firefly {
+    animation: night-sky-twinkle 2.4s ease-in-out infinite alternate;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .garden__layer,
+  .garden__glow,
+  .garden__ghost {
+    transition: none;
+  }
+}
+
+/* ---- Tombstone foot ---- */
+.tombstone-art {
+  position: absolute;
+  pointer-events: none;
+}
+
+.tombstone-art--base {
+  inset: auto 0 0 0;
+  width: 100%;
+  height: 2.25rem;
+}
+
+.tombstone-art__ground {
+  fill: var(--color-moss);
+}
+
+.tombstone-art__plant path {
+  fill: none;
+  stroke: var(--color-mint);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tombstone-art__moss {
+  fill: var(--color-moss);
+  stroke: var(--color-mint);
+  stroke-width: 0.8;
+  stroke-opacity: 0.5;
+}
+
+.tombstone-art__stem {
+  fill: none;
+  stroke: var(--color-moon);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}
+
+.tombstone-art__cap--pumpkin {
+  fill: var(--color-pumpkin);
+}
+
+.tombstone-art__cap--lavender {
+  fill: var(--color-lavender);
+}
+
+.tombstone-art__fence path {
+  fill: var(--color-night-deep);
+  stroke: var(--color-border);
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+
+.tombstone-art__plot {
+  fill: none;
+  stroke: var(--color-lavender);
+  stroke-width: 1.4;
+  stroke-dasharray: 4 3;
+}
+
+.tombstone-art__question {
+  fill: none;
+  stroke: var(--color-lavender);
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0.7;
+}
+
+.tombstone-art--web {
+  top: 0;
+  left: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.tombstone-art--web path,
+.tombstone-art--crack path {
+  fill: none;
+  stroke: var(--color-lavender);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.4;
+}
+
+.tombstone-art--crack {
+  top: 0;
+  right: 22%;
+  width: 1.75rem;
+  height: 2.5rem;
+}
+
+/* ---- Stage glyph ---- */
+.stage-glyph {
+  flex: none;
+  fill: none;
+  stroke: var(--color-lavender);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

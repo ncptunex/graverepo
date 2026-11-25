@@ -1,0 +1,199 @@
+/* Landing: a night scene with the name, then the four stages as stepping stones, then two entry
+   panels (search and demo). The scene is decoration under a dark scrim. */
+.landing__hero {
+  position: relative;
+  min-height: 18rem;
+  overflow: hidden;
+  border: 1px solid rgb(195 181 255 / 0.3);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.landing__hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(8 10 24 / 0.86) 0%, rgb(8 10 24 / 0.6) 50%, rgb(8 10 24 / 0) 85%);
+  pointer-events: none;
+}
+
+.landing__hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 46rem;
+  padding: var(--space-8) var(--gutter) var(--space-12);
+}
+
+.landing__hero-text h1 {
+  margin: 0;
+  font-size: clamp(1.75rem, 9vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  width: fit-content;
+}
+
+.landing__tagline {
+  margin: 0;
+  color: var(--color-lavender);
+  font-size: clamp(1.125rem, 3vw, 1.5rem);
+  font-weight: 600;
+}
+
+.landing__intro {
+  margin: 0;
+  max-width: 60ch;
+}
+
+.landing__ghost {
+  position: absolute;
+  right: var(--gutter);
+  bottom: var(--space-8);
+  z-index: 1;
+  display: none;
+  filter: drop-shadow(0 8px 12px rgb(5 6 20 / 0.5));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .landing__ghost {
+    animation: landing-float 4s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes landing-float {
+  to {
+    translate: 0 -10px;
+  }
+}
+
+.landing__stages h2,
+.landing__panel h2 {
+  margin: 0 0 var(--space-3);
+}
+
+.landing__stage-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.landing__stage {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid rgb(195 181 255 / 0.4);
+  /* A small arched stone, like the tombstones. */
+  border-radius: var(--space-6) var(--space-6) var(--radius-sm) var(--radius-sm);
+  background: linear-gradient(180deg, var(--color-stone-hi), var(--color-stone));
+}
+
+.landing__body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.landing__entries {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+.landing__entries.stack > * + *,
+.landing__entries.stack {
+  margin-top: 0;
+}
+
+.landing__entries.stack > * + * {
+  margin-top: 0;
+}
+
+.landing__panel {
+  padding: var(--space-6);
+  border: 1px solid rgb(195 181 255 / 0.4);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-stone), var(--color-surface));
+  box-shadow: var(--shadow-soft);
+}
+
+.landing__panel h2 {
+  margin: 0;
+}
+
+/* Tablet: the stages in two columns, search and demo side by side. */
+@media (min-width: 48rem) {
+  .landing__hero {
+    min-height: 22rem;
+  }
+
+  .landing__ghost {
+    display: block;
+  }
+
+  .landing__stage-list,
+  .landing__entries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: a roomy hero, then the stages on the left and search and demo stacked on the right. */
+@media (min-width: 75rem) {
+  .landing__hero {
+    min-height: 28rem;
+  }
+
+  .landing__hero-text {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+  }
+
+  .landing__hero-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .landing__tagline {
+    font-size: 1.75rem;
+  }
+
+  .landing__intro {
+    font-size: 1.125rem;
+  }
+
+  .landing__ghost {
+    width: 140px;
+    height: auto;
+    right: 12%;
+    bottom: var(--space-12);
+  }
+
+  .landing__body {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: var(--space-8);
+    align-items: start;
+  }
+
+  .landing__entries {
+    grid-template-columns: 1fr;
+  }
+
+  /* One column of larger stones, so the left side balances the two panels on the right. */
+  .landing__stage-list {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .landing__stage {
+    gap: var(--space-4);
+    padding: var(--space-6);
+    font-size: 1.125rem;
+  }
+
+  .landing__stage .stage-glyph {
+    width: 44px;
+    height: 44px;
+  }
+}

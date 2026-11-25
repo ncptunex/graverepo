@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "endpoint": "/repos/ncptunex/foodstarter/commits?per_page=1&path=package.json",
+    "capturedAt": "2026-11-22T13:23:00.548Z",
+    "source": "ncptunex/foodstarter",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": [
+      "[0].commit.author.email",
+      "[0].commit.committer.email"
+    ]
+  },
+  "headers": {
+    "link": "<https://api.github.com/repositories/1466347986/commits?per_page=1&path=package.json&page=2>; rel=\"next\", <https://api.github.com/repositories/1466347986/commits?per_page=1&path=package.json&page=1>; rel=\"last\"",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "28",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "32",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "sha": "b977289ae5857b94e1faf4beda36887f7ee6f063",
+      "node_id": "C_kwDOV2ax0toAKGI5NzcyODlhZTU4NTdiOTRlMWZhZjRiZWRhMzY4ODdmN2VlNmYwNjM",
+      "commit": {
+        "author": {
+          "name": "Chan Jie Lin",
+          "date": "2026-11-21T09:03:36Z"
+        },
+        "committer": {
+          "name": "Chan Jie Lin",
+          "date": "2026-11-21T09:03:36Z"
+        },
+        "message": "Complete with FoodStarter Project",
+        "tree": {
+          "sha": "665f3b5304ca06640a51cf30e10054de54787434",
+          "url": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/665f3b5304ca06640a51cf30e10054de54787434"
+        },
+        "url": "https://api.github.com/repos/ncptunex/foodstarter/git/commits/b977289ae5857b94e1faf4beda36887f7ee6f063",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/commits/b977289ae5857b94e1faf4beda36887f7ee6f063",
+      "html_url": "https://github.com/ncptunex/foodstarter/commit/b977289ae5857b94e1faf4beda36887f7ee6f063",
+      "comments_url": "https://api.github.com/repos/ncptunex/foodstarter/commits/b977289ae5857b94e1faf4beda36887f7ee6f063/comments",
+      "author": {
+        "login": "ncptunex",
+        "id": 235640995,
+        "node_id": "U_kgDODguYow",
+        "avatar_url": "https://avatars.githubusercontent.com/u/235640995?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ncptunex",
+        "html_url": "https://github.com/ncptunex",
+        "followers_url": "https://api.github.com/users/ncptunex/followers",
+        "following_url": "https://api.github.com/users/ncptunex/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ncptunex/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ncptunex/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ncptunex/subscriptions",
+        "organizations_url": "https://api.github.com/users/ncptunex/orgs",
+        "repos_url": "https://api.github.com/users/ncptunex/repos",
+        "events_url": "https://api.github.com/users/ncptunex/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ncptunex/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ncptunex",
+        "id": 235640995,
+        "node_id": "U_kgDODguYow",
+        "avatar_url": "https://avatars.githubusercontent.com/u/235640995?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ncptunex",
+        "html_url": "https://github.com/ncptunex",
+        "followers_url": "https://api.github.com/users/ncptunex/followers",
+        "following_url": "https://api.github.com/users/ncptunex/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ncptunex/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ncptunex/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ncptunex/subscriptions",
+        "organizations_url": "https://api.github.com/users/ncptunex/orgs",
+        "repos_url": "https://api.github.com/users/ncptunex/repos",
+        "events_url": "https://api.github.com/users/ncptunex/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ncptunex/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ]
+}

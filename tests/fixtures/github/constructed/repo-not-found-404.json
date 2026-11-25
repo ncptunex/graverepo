@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Repository not found: 404 on GET /repos/{owner}/{repo} for a repository that does not exist or is private"
+  },
+  "status": 404,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "52",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "8",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+    "status": "404"
+  }
+}

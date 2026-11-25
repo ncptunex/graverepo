@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Scan for GitHub tokens on save",
+      "trigger": "PostFileSave",
+      "description": "After a file in src/, shared/ or api/ is saved, scans those folders for GitHub token patterns (data-layer task 10.1, Req 11.1). Prints only the file, line and prefix, never the token.",
+      "matcher": "(^|[\\\\/])(src|shared|api)[\\\\/]",
+      "action": {
+        "type": "command",
+        "command": "node scripts/scan-tokens.mjs",
+        "timeout": 30
+      }
+    }
+  ]
+}

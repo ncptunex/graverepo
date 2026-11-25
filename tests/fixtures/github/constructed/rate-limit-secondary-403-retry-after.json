@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Secondary rate limit: 403 with a retry-after header of 30 seconds"
+  },
+  "status": 403,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "41",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "19",
+    "x-ratelimit-resource": "core",
+    "retry-after": "30"
+  },
+  "body": {
+    "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID ABCD:1234:5678:9ABC:DEF0.",
+    "documentation_url": "https://docs.github.com/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+  }
+}

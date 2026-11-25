@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "endpoint": "/repos/dubzzz/fast-check/branches?per_page=100",
+    "capturedAt": "2026-11-22T13:23:04.761Z",
+    "source": "dubzzz/fast-check",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": []
+  },
+  "headers": {
+    "link": "<https://api.github.com/repositories/108920680/branches?per_page=100&page=2>; rel=\"next\", <https://api.github.com/repositories/108920680/branches?per_page=100&page=2>; rel=\"last\"",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "25",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "35",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "name": "async-come-back",
+      "commit": {
+        "sha": "859545f3ba106f93283df44455fb9014178189d2",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/859545f3ba106f93283df44455fb9014178189d2"
+      },
+      "protected": false
+    },
+    {
+      "name": "backport-async-prop",
+      "commit": {
+        "sha": "53cb3525fda1efa07ef4cb32356210bb5e8e4b11",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/53cb3525fda1efa07ef4cb32356210bb5e8e4b11"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-fuzz-mode-aI6k3",
+      "commit": {
+        "sha": "55019c33d5dbeb16a01cee31327bb373dec811e8",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/55019c33d5dbeb16a01cee31327bb373dec811e8"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-pnpm-windows-setup-8cT1q",
+      "commit": {
+        "sha": "209ccb6081dd072e4863ea7430cbd1f4ab1fc635",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/209ccb6081dd072e4863ea7430cbd1f4ab1fc635"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-unmapper-assert-f3Lgq",
+      "commit": {
+        "sha": "011102ee7cf35513e35d71ad0732b9562a742100",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/011102ee7cf35513e35d71ad0732b9562a742100"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-2GMVU",
+      "commit": {
+        "sha": "c0f943ed9ac0c808a182b8c72f0d301ea48ef16b",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/c0f943ed9ac0c808a182b8c72f0d301ea48ef16b"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-ARm5k",
+      "commit": {
+        "sha": "25122a4aefd7733bb3e27e5a5d4fe877c667d937",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/25122a4aefd7733bb3e27e5a5d4fe877c667d937"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-Ebcyf",
+      "commit": {
+        "sha": "1b21a4527c88b59fd4f1a872c6669b59d5ad597d",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/1b21a4527c88b59fd4f1a872c6669b59d5ad597d"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-OrqQx",
+      "commit": {
+        "sha": "46ead8a18617680b2a56b1451a4b8d539cc923e9",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/46ead8a18617680b2a56b1451a4b8d539cc923e9"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-POHfl",
+      "commit": {
+        "sha": "ffed6377d99d8aab5da2d52000641a3d02bf0c02",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/ffed6377d99d8aab5da2d52000641a3d02bf0c02"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-Uw9qx",
+      "commit": {
+        "sha": "ab50aa810b2f34442e4094a7b0f8b8ef4127df79",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/ab50aa810b2f34442e4094a7b0f8b8ef4127df79"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-c5ius",
+      "commit": {
+        "sha": "eb12f5632ee9f300f4262179d2189ba8e7e41836",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/eb12f5632ee9f300f4262179d2189ba8e7e41836"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-d78hX",
+      "commit": {
+        "sha": "731b875061c6b50f30bc6a2a97118e66b46ada6b",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/731b875061c6b50f30bc6a2a97118e66b46ada6b"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/add-v-flag-support-ju1gF",
+      "commit": {
+        "sha": "7cc1df6dae520807b9adbc2ca5647f80f2481d52",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/7cc1df6dae520807b9adbc2ca5647f80f2481d52"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/afterall-async-optimization-hkch8m",
+      "commit": {
+        "sha": "45ecc1e106285d6465839be2a4cf981224793c8b",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/45ecc1e106285d6465839be2a4cf981224793c8b"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/balance-vitest-shards-L9Gdo",
+      "commit": {
+        "sha": "518dbff66c4091191e6b4683cff3651395adcb72",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/518dbff66c4091191e6b4683cff3651395adcb72"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/beforeeach-hooks-async-overhead-sug5j3",
+      "commit": {
+        "sha": "d3a5b9f4cf42978db19e9112a7835d9755fedb68",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/d3a5b9f4cf42978db19e9112a7835d9755fedb68"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/bold-galileo-kFQ8P",
+      "commit": {
+        "sha": "dc922e2c01a3ce4c810561474ec87df14ceaa6b4",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/dc922e2c01a3ce4c810561474ec87df14ceaa6b4"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/brave-wozniak-VTWeZ",
+      "commit": {
+        "sha": "695b2eff57e09b0cc466b9f40358ac201de16363",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/695b2eff57e09b0cc466b9f40358ac201de16363"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/ci-benchmark-pr-reporting-CRiUd",
+      "commit": {
+        "sha": "180e2fd20803397b56f3f146f319af9f20e207ad",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/180e2fd20803397b56f3f146f319af9f20e207ad"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/convert-claude-md-script-Y1M4e",
+      "commit": {
+        "sha": "2638a42b7b111b691d64e0d9ad418131d5243547",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/2638a42b7b111b691d64e0d9ad418131d5243547"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/dict-record-perf-opts-aemoD",
+      "commit": {
+        "sha": "528f015d4010e3a026ab7373576815d3b73b4fe2",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/528f015d4010e3a026ab7373576815d3b73b4fe2"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/entitygraph-cloneable-instances-5EA85",
+      "commit": {
+        "sha": "270f1a088fe6fe73ca834664361c26fd7b384898",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/270f1a088fe6fe73ca834664361c26fd7b384898"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fast-check-arbitrary-perf-KmPv2",
+      "commit": {
+        "sha": "42c55fa7099c151c64a99e35102c9b24151560e9",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/42c55fa7099c151c64a99e35102c9b24151560e9"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fast-check-cli-scaffold-Up39r",
+      "commit": {
+        "sha": "c1c5ed3583508882c81ec7bb5968097241e1d506",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/c1c5ed3583508882c81ec7bb5968097241e1d506"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fast-check-esm-migration-j7NlH",
+      "commit": {
+        "sha": "cfc7202c43e771be93d79e3ff2db4e7ae2482b59",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/cfc7202c43e771be93d79e3ff2db4e7ae2482b59"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fast-check-import-computation-3pjwlt",
+      "commit": {
+        "sha": "cd6e3e75f1ddf7eac4041d9742936953daac1190",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/cd6e3e75f1ddf7eac4041d9742936953daac1190"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fast-check-perf-optimization-mcenkx",
+      "commit": {
+        "sha": "99e94e4c160cb68ef63cbe0d3f51fdae0a715354",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/99e94e4c160cb68ef63cbe0d3f51fdae0a715354"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fastcheck-arbitrary-skill-Q7P5W",
+      "commit": {
+        "sha": "3d8424a504e14f7641dfafac8dbb0f9665eac79b",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/3d8424a504e14f7641dfafac8dbb0f9665eac79b"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fix-wait-for-secret-timeout-ROGvz",
+      "commit": {
+        "sha": "30bf74ad1c945b631f833f9d7e5f267614303552",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/30bf74ad1c945b631f833f9d7e5f267614303552"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/fuzzing-string-arbitrary-iqw5S",
+      "commit": {
+        "sha": "69ebf66af10564234f55a8fb7b68223a6e995fe3",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/69ebf66af10564234f55a8fb7b68223a6e995fe3"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/issue-4570-20260323-2005",
+      "commit": {
+        "sha": "f0f8aeff62b2d3daed8a0bbb13cf2f18480e6488",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f0f8aeff62b2d3daed8a0bbb13cf2f18480e6488"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/issue-6452-20260331-2246",
+      "commit": {
+        "sha": "bb0b3bdf36a74b08e1939173538cbe85de5c9aba",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/bb0b3bdf36a74b08e1939173538cbe85de5c9aba"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/iterative-stringify-algorithm-hdfxk",
+      "commit": {
+        "sha": "01d73fb57702a137d2815d7586ec22caf54c6670",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/01d73fb57702a137d2815d7586ec22caf54c6670"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/maptoconstant-perf-optims-cs06ew",
+      "commit": {
+        "sha": "ab2cff9d868c9bd563cea18da4277563e5200729",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/ab2cff9d868c9bd563cea18da4277563e5200729"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/msw-fast-check-race-conditions-MUVw0",
+      "commit": {
+        "sha": "33a54c254b2bedb78485faa964b576ef854e9d00",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/33a54c254b2bedb78485faa964b576ef854e9d00"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/perf-string-entity-web-0KP3X",
+      "commit": {
+        "sha": "245210c41244fcff3a3c909e4d9fe76704c8c2a0",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/245210c41244fcff3a3c909e4d9fe76704c8c2a0"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/remove-fast-check-default-export-W1hOo",
+      "commit": {
+        "sha": "d96a3ae254f525e71e5809e5631c1a52a3f6220a",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/d96a3ae254f525e71e5809e5631c1a52a3f6220a"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/rename-async-property-o5bav",
+      "commit": {
+        "sha": "1606d8747618cea4c613d48315c4ea2c7273958a",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/1606d8747618cea4c613d48315c4ea2c7273958a"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/setup-knip-config-e8K8f",
+      "commit": {
+        "sha": "5b714f01f919d121338ddb6270f1f5724ac43256",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/5b714f01f919d121338ddb6270f1f5724ac43256"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/setup-vitest-docs-feMLt",
+      "commit": {
+        "sha": "4eb82bbc0b9fb13c62694d3993259cdb568f6c0a",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/4eb82bbc0b9fb13c62694d3993259cdb568f6c0a"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/stringmatching-arbitrary-perf-Gf3wI",
+      "commit": {
+        "sha": "dfeb84577723cdc52a9e1558616219924d00165f",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/dfeb84577723cdc52a9e1558616219924d00165f"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/sweet-einstein-207i1",
+      "commit": {
+        "sha": "a48fe0555d6a6f3bc85c9169834164285d7a6f01",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/a48fe0555d6a6f3bc85c9169834164285d7a6f01"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/tuple-array-args-PMiIF",
+      "commit": {
+        "sha": "f88432f31b2fab1fb36464e14b666ce1fc463b58",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f88432f31b2fab1fb36464e14b666ce1fc463b58"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/typescript-oneof-typings-nd3Bg",
+      "commit": {
+        "sha": "5643c4be703d44759d891bdc701e7b626743d4b4",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/5643c4be703d44759d891bdc701e7b626743d4b4"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/use-builtin-gh-release-VzaqG",
+      "commit": {
+        "sha": "1a0dc955ba8614d03c4643aa4688d04dd54c3fc1",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/1a0dc955ba8614d03c4643aa4688d04dd54c3fc1"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/chain-unchainer-20261003",
+      "commit": {
+        "sha": "ff40d66e8d69b23f4ac76c4c5978754e8c43d6aa",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/ff40d66e8d69b23f4ac76c4c5978754e8c43d6aa"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/equal-values-async-stringify-20261003",
+      "commit": {
+        "sha": "062f9f6ecc2c52a90e4bbd4b29dad12231420b93",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/062f9f6ecc2c52a90e4bbd4b29dad12231420b93"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/fast-check-4-10-2-compat-ba6f637",
+      "commit": {
+        "sha": "c6ff1beffa69fe9d42a36e8a10dcab0a82c18533",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/c6ff1beffa69fe9d42a36e8a10dcab0a82c18533"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/fast-check-next",
+      "commit": {
+        "sha": "53cbbd4fb33ab49e14fdde59d4f9625259968fa2",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/53cbbd4fb33ab49e14fdde59d4f9625259968fa2"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/iterator-consumed-prefix-shrink",
+      "commit": {
+        "sha": "cc70ab77f2088ad4f310dc19bb25ad9c3cd2ea1c",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/cc70ab77f2088ad4f310dc19bb25ad9c3cd2ea1c"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/iterator-observed-exhaustion",
+      "commit": {
+        "sha": "9b2c7362ad3352e0b4828c358e9a253c0abbebd6",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/9b2c7362ad3352e0b4828c358e9a253c0abbebd6"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/plugin-current-run-path",
+      "commit": {
+        "sha": "30ce995eacf0806dff9217c79a6022703c0e6427",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/30ce995eacf0806dff9217c79a6022703c0e6427"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/record-required-key-types-20261003",
+      "commit": {
+        "sha": "a99a271f866bd003aee438b056a86165cd1cd634",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/a99a271f866bd003aee438b056a86165cd1cd634"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/regex-character-class-backspace-20261003",
+      "commit": {
+        "sha": "7cd25202533ef7878e0e16034c4f58876f8498df",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/7cd25202533ef7878e0e16034c4f58876f8498df"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/regex-concatenation-unmapper-20261003",
+      "commit": {
+        "sha": "0814bbf6fdd9002c06684f525674c9ad713b4017",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/0814bbf6fdd9002c06684f525674c9ad713b4017"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/replace-action-gh-release",
+      "commit": {
+        "sha": "eaac1c450248c1548ec2bed3ba2da2e0ab9fa179",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/eaac1c450248c1548ec2bed3ba2da2e0ab9fa179"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-async-assertions",
+      "commit": {
+        "sha": "0f3857e055de75ff2d6daa9794f7bfb2c8d9c7b9",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/0f3857e055de75ff2d6daa9794f7bfb2c8d9c7b9"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-await-assert",
+      "commit": {
+        "sha": "81618246a5ee5de4b0a10c391984c12d67e148bf",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/81618246a5ee5de4b0a10c391984c12d67e148bf"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-compatibility-baseline",
+      "commit": {
+        "sha": "aac203dbe149b5fc4adabc3c1a29e901b896c5af",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/aac203dbe149b5fc4adabc3c1a29e901b896c5af"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-default-report-message",
+      "commit": {
+        "sha": "f71a02343496c4b21152f2214f7aee4f807e11cd",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f71a02343496c4b21152f2214f7aee4f807e11cd"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-default-reporter",
+      "commit": {
+        "sha": "f7298a826115b88f23641ed80ceac783e0f1165b",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f7298a826115b88f23641ed80ceac783e0f1165b"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-lifecycle-plugins",
+      "commit": {
+        "sha": "9da3ad3f155d2ea1df3ce2aaa1e5902abf3cb491",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/9da3ad3f155d2ea1df3ce2aaa1e5902abf3cb491"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-runner-plugins",
+      "commit": {
+        "sha": "f195d563599880234dc835be9b122fa0ee75dfcd",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f195d563599880234dc835be9b122fa0ee75dfcd"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-runner-reporter-plugins",
+      "commit": {
+        "sha": "051607b465296991fd6ddac0edc62eb1b55b9b86",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/051607b465296991fd6ddac0edc62eb1b55b9b86"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-sample-and-statistics",
+      "commit": {
+        "sha": "76064ea6937d0766e8eaf31c1cd731c117adc772",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/76064ea6937d0766e8eaf31c1cd731c117adc772"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/v5-statistics",
+      "commit": {
+        "sha": "48cd6b1254fcfc8e586d00a8a91c633f83623ece",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/48cd6b1254fcfc8e586d00a8a91c633f83623ece"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/7577-class-backspace",
+      "commit": {
+        "sha": "ce550bd48fdb963088fc41efee7b062e3eea5b96",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/ce550bd48fdb963088fc41efee7b062e3eea5b96"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/7577-class-ranges",
+      "commit": {
+        "sha": "3953ae9ca76979e0fdb4045b66c3222c1f528de8",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/3953ae9ca76979e0fdb4045b66c3222c1f528de8"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/7577-control-escapes",
+      "commit": {
+        "sha": "d4a179e77bc4167049d4cb2299f8b41b376c7cfa",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/d4a179e77bc4167049d4cb2299f8b41b376c7cfa"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/7577-empty-groups",
+      "commit": {
+        "sha": "b1784dee5b02413567768b05d1035fd8f2dbd5d3",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/b1784dee5b02413567768b05d1035fd8f2dbd5d3"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/7577-numeric-escapes",
+      "commit": {
+        "sha": "fcce9e59f067a4d21231fac538a0dc7bb1dc1f92",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/fcce9e59f067a4d21231fac538a0dc7bb1dc1f92"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/add-copilot-instructions-file",
+      "commit": {
+        "sha": "943f6e1f973c60fecf9ca8351a760a625cc15f61",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/943f6e1f973c60fecf9ca8351a760a625cc15f61"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/add-instructions-for-format-lint-typecheck",
+      "commit": {
+        "sha": "fe26acb016811130fe73df06dc90cd1653cb2fb7",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/fe26acb016811130fe73df06dc90cd1653cb2fb7"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/add-intro-text-to-verification",
+      "commit": {
+        "sha": "652653f7e85708b91ac980ff81f6c715cc093227",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/652653f7e85708b91ac980ff81f6c715cc093227"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/add-property-based-testing-examples",
+      "commit": {
+        "sha": "43966b00e606281d472cf757df1417e35165085a",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/43966b00e606281d472cf757df1417e35165085a"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/create-fast-check-agent",
+      "commit": {
+        "sha": "3c78ef17541416d9fae2e66da638c19522c20e4a",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/3c78ef17541416d9fae2e66da638c19522c20e4a"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/create-github-action-manual-trigger",
+      "commit": {
+        "sha": "e62a72d70a59a69bdc188943a3be48f259f15005",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/e62a72d70a59a69bdc188943a3be48f259f15005"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/extract-netlify-artifact-step",
+      "commit": {
+        "sha": "fec7eee82768d53573bacd10a9e5e067f5910903",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/fec7eee82768d53573bacd10a9e5e067f5910903"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-2d15be14-ba9c-4285-b8e5-54f52d333b63",
+      "commit": {
+        "sha": "0c41ee43197ad1e5607d8db71ca436d68c8ad1ef",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/0c41ee43197ad1e5607d8db71ca436d68c8ad1ef"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-03b90817-ce24-4ffb-ad93-bc5191627a81",
+      "commit": {
+        "sha": "52e780b261e678f2eeb67627c5bced0ead7aff7f",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/52e780b261e678f2eeb67627c5bced0ead7aff7f"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-b42c19fd-4994-42f7-93a3-d7adcb86db79",
+      "commit": {
+        "sha": "98082faa55577b022854ed1e2d4f0b0d13080688",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/98082faa55577b022854ed1e2d4f0b0d13080688"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-eef9dbf9-4aab-4f10-96bc-9c28ef282601",
+      "commit": {
+        "sha": "20b79ba93c263656659414f5487145853ebb4aa3",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/20b79ba93c263656659414f5487145853ebb4aa3"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-github-action-permissions",
+      "commit": {
+        "sha": "716a363bea4c444ee264c5b9259c90ae906ccaf8",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/716a363bea4c444ee264c5b9259c90ae906ccaf8"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-issue-4342",
+      "commit": {
+        "sha": "77d70dab64392650fc5eaa301a4efb99899a0ed6",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/77d70dab64392650fc5eaa301a4efb99899a0ed6"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-issue-6293",
+      "commit": {
+        "sha": "c6f7557952d1e680a712e60a95167e28da0a06d6",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/c6f7557952d1e680a712e60a95167e28da0a06d6"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-local-attributes-to-prototype",
+      "commit": {
+        "sha": "236420cebd1a990c548e97714767469f4cdfdcd5",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/236420cebd1a990c548e97714767469f4cdfdcd5"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-prng-in-generate-function",
+      "commit": {
+        "sha": "12a6bf712af2d70d9dbd37c1ecce3c1147bacb76",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/12a6bf712af2d70d9dbd37c1ecce3c1147bacb76"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-test-file-part-errors",
+      "commit": {
+        "sha": "f08a523f0a8c317abf454c43495b62b6beb0ef5d",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/f08a523f0a8c317abf454c43495b62b6beb0ef5d"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-vulnerabilities-issues",
+      "commit": {
+        "sha": "e7a61aca1b5c936020b113a71fc077f4cd72b1cb",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/e7a61aca1b5c936020b113a71fc077f4cd72b1cb"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/fix-zizmor-issues-again",
+      "commit": {
+        "sha": "d5e158803df556ae1ca774153fe94a56dafcbfca",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/d5e158803df556ae1ca774153fe94a56dafcbfca"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/implement-property-testing-expert",
+      "commit": {
+        "sha": "cd09dbb962a0b9fb02158d0a5e1050b8b040e1f9",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/cd09dbb962a0b9fb02158d0a5e1050b8b040e1f9"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/migrate-tests-to-vitest",
+      "commit": {
+        "sha": "1fc4f59e48b3203f95288144713e5b4178abe607",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/1fc4f59e48b3203f95288144713e5b4178abe607"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/migrate-to-vitest-expect-type",
+      "commit": {
+        "sha": "91401d021ca1f55b2a7854be2c19a6d0c8ca192c",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/91401d021ca1f55b2a7854be2c19a6d0c8ca192c"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/refactor-non-boolean-conditions",
+      "commit": {
+        "sha": "1d1f8a1a5574d5c627dee8e72f9774bd33d61603",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/1d1f8a1a5574d5c627dee8e72f9774bd33d61603"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/remove-old-fast-check-support",
+      "commit": {
+        "sha": "58595b8c42d1cf7e97fa311f60ea5d4c695c7fc8",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/58595b8c42d1cf7e97fa311f60ea5d4c695c7fc8"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/remove-on-the-fly-links-class",
+      "commit": {
+        "sha": "6d63b1988b1dcfeb7f4addacba058c479974f7e9",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/6d63b1988b1dcfeb7f4addacba058c479974f7e9"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/replace-eslint-with-oxlint",
+      "commit": {
+        "sha": "9ed771bf69334047cae4ac74d4f0fa8cc51c5e59",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/9ed771bf69334047cae4ac74d4f0fa8cc51c5e59"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/replace-prettier-with-oxfmt",
+      "commit": {
+        "sha": "8b45f95bf4db34e0129d2bd22e34bd919be9c5ae",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/8b45f95bf4db34e0129d2bd22e34bd919be9c5ae"
+      },
+      "protected": false
+    },
+    {
+      "name": "copilot/sub-pr-6211",
+      "commit": {
+        "sha": "62a01f17f9ee63ff1a0233d3961f20d7088e7fae",
+        "url": "https://api.github.com/repos/dubzzz/fast-check/commits/62a01f17f9ee63ff1a0233d3961f20d7088e7fae"
+      },
+      "protected": false
+    }
+  ]
+}

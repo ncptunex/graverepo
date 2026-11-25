@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "GitHub server error: 502 Bad Gateway"
+  },
+  "status": 502,
+  "headers": {},
+  "body": {
+    "message": "Bad Gateway",
+    "documentation_url": "https://docs.github.com/rest",
+    "status": "502"
+  }
+}

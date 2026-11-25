@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Repository list with invalid items: one complete item, one item with wrong-type optional fields (kept with nulls), and four items each missing or mistyping a required field (id, name, owner login, web URL), which must be dropped and counted"
+  },
+  "status": 200,
+  "headers": {},
+  "body": [
+    {
+      "id": 2000001,
+      "name": "complete-item",
+      "full_name": "example-user/complete-item",
+      "owner": { "login": "example-user", "type": "User" },
+      "html_url": "https://github.com/example-user/complete-item",
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "description": "A complete repository item.",
+      "language": "TypeScript",
+      "stargazers_count": 4,
+      "forks_count": 1,
+      "open_issues_count": 2,
+      "has_issues": true,
+      "default_branch": "main",
+      "created_at": "2025-01-10T09:00:00Z",
+      "pushed_at": "2026-10-01T12:30:00Z",
+      "size": 120
+    },
+    {
+      "id": 2000002,
+      "name": "wrong-type-optionals",
+      "full_name": "example-user/wrong-type-optionals",
+      "owner": { "login": "example-user", "type": "User" },
+      "html_url": "https://github.com/example-user/wrong-type-optionals",
+      "private": false,
+      "visibility": "public",
+      "fork": true,
+      "archived": true,
+      "description": "   ",
+      "language": 7,
+      "stargazers_count": "lots",
+      "forks_count": -3,
+      "open_issues_count": 1.5,
+      "has_issues": "yes",
+      "default_branch": "",
+      "created_at": "not a date",
+      "pushed_at": null,
+      "size": null
+    },
+    {
+      "name": "missing-id",
+      "full_name": "example-user/missing-id",
+      "owner": { "login": "example-user", "type": "User" },
+      "html_url": "https://github.com/example-user/missing-id",
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 2000004,
+      "name": 12345,
+      "full_name": "example-user/12345",
+      "owner": { "login": "example-user", "type": "User" },
+      "html_url": "https://github.com/example-user/12345",
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 2000005,
+      "name": "missing-owner-login",
+      "full_name": "example-user/missing-owner-login",
+      "owner": { "type": "User" },
+      "html_url": "https://github.com/example-user/missing-owner-login",
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 2000006,
+      "name": "missing-web-url",
+      "full_name": "example-user/missing-web-url",
+      "owner": { "login": "example-user", "type": "User" },
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false
+    }
+  ]
+}

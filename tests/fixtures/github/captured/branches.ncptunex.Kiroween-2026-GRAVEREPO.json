@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "endpoint": "/repos/ncptunex/Kiroween-2026-GRAVEREPO/branches?per_page=100",
+    "capturedAt": "2026-11-22T13:41:05.782Z",
+    "source": "ncptunex/Kiroween-2026-GRAVEREPO",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": []
+  },
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "37",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "e757659944c0d5c62b5f2ade847f3832a7eafb74",
+        "url": "https://api.github.com/repos/ncptunex/Kiroween-2026-GRAVEREPO/commits/e757659944c0d5c62b5f2ade847f3832a7eafb74"
+      },
+      "protected": false
+    },
+    {
+      "name": "spec-",
+      "commit": {
+        "sha": "acb7ad90afa1b9365074a86975eda489e0bf6fb9",
+        "url": "https://api.github.com/repos/ncptunex/Kiroween-2026-GRAVEREPO/commits/acb7ad90afa1b9365074a86975eda489e0bf6fb9"
+      },
+      "protected": false
+    }
+  ]
+}

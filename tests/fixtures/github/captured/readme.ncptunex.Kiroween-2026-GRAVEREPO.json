@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "endpoint": "/repos/ncptunex/Kiroween-2026-GRAVEREPO/readme",
+    "capturedAt": "2026-11-22T12:53:39.279Z",
+    "source": "ncptunex/Kiroween-2026-GRAVEREPO",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 404,
+    "redactions": []
+  },
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "1",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/repos/contents#get-a-repository-readme",
+    "status": "404"
+  }
+}

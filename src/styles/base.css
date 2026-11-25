@@ -1,0 +1,204 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* The page always spans the whole viewport. Nothing above main sets a width, a max-width or a
+   transform, so the browser window and its zoom level decide the layout width. Only main is
+   capped (see --content-max). The scrollbar colours sit on the root so they theme the page scrollbar. */
+html {
+  width: 100%;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scrollbar-color: var(--color-stone-hi) var(--color-night-deep);
+}
+
+#root {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(ellipse 70% 40% at 85% -5%, rgb(42 29 92 / 0.75), transparent),
+    radial-gradient(ellipse 60% 30% at 0% 0%, rgb(26 18 64 / 0.8), transparent),
+    var(--color-bg);
+  background-attachment: fixed;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  accent-color: var(--color-mint);
+  caret-color: var(--color-lavender);
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  letter-spacing: 0.01em;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: var(--color-lavender);
+}
+
+p {
+  max-width: 70ch;
+}
+
+main {
+  width: min(100%, var(--content-max));
+  margin-inline: auto;
+  padding: var(--space-6) var(--gutter) var(--space-8);
+}
+
+/* One visible focus ring for every control (contrast 8.7:1 or better on both backgrounds). */
+:focus-visible {
+  outline: 3px solid var(--color-lavender);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.button {
+  min-height: var(--target-min);
+  min-width: var(--target-min);
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--color-lavender);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, var(--color-stone), var(--color-surface));
+  box-shadow: 0 4px 10px rgb(5 6 20 / 0.4);
+  color: var(--color-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.button:hover:not([aria-disabled='true']):not(:disabled) {
+  background: linear-gradient(180deg, var(--color-stone-hi), var(--color-stone));
+}
+
+.button--primary {
+  background: linear-gradient(180deg, #6b4fd6, var(--color-primary));
+  color: var(--color-on-primary);
+  font-weight: 700;
+}
+
+.button--primary:hover:not([aria-disabled='true']):not(:disabled) {
+  background: linear-gradient(180deg, #7a5fe0, #6246cf);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .button {
+    transition:
+      transform 0.18s var(--ease-out),
+      box-shadow 0.18s var(--ease-out);
+  }
+
+  .button:hover:not([aria-disabled='true']):not(:disabled) {
+    transform: translateY(-1px);
+  }
+
+  .button:active:not([aria-disabled='true']):not(:disabled) {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgb(5 6 20 / 0.4);
+  }
+}
+
+.button[aria-disabled='true'],
+.button:disabled {
+  border-style: dashed;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.field {
+  min-height: var(--target-min);
+  padding: var(--space-2) var(--space-3);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-night-deep);
+  box-shadow: inset 0 2px 4px rgb(0 0 0 / 0.4);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.field:hover {
+  border-color: var(--color-lavender);
+}
+
+.stack > * + * {
+  margin-top: var(--space-4);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
+
+.panel {
+  padding: var(--space-4);
+  border: 1px solid rgb(195 181 255 / 0.4);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-stone), var(--color-surface));
+  box-shadow: var(--shadow-soft);
+}
+
+.plain-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Notices keep their icon and text. The tint is an extra cue. */
+.notice--warning {
+  color: var(--color-pumpkin);
+}
+
+.notice--error {
+  color: var(--color-error);
+}
+
+.notice--success {
+  color: var(--color-mint);
+}
+
+.notice__text {
+  color: var(--color-text);
+}

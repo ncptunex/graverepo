@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "endpoint": "/users/ncptunex",
+    "capturedAt": "2026-11-22T12:56:42.465Z",
+    "source": "ncptunex",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": [
+      "email"
+    ]
+  },
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "42",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "18",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "login": "ncptunex",
+    "id": 235640995,
+    "node_id": "U_kgDODguYow",
+    "avatar_url": "https://avatars.githubusercontent.com/u/235640995?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ncptunex",
+    "html_url": "https://github.com/ncptunex",
+    "followers_url": "https://api.github.com/users/ncptunex/followers",
+    "following_url": "https://api.github.com/users/ncptunex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ncptunex/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ncptunex/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ncptunex/subscriptions",
+    "organizations_url": "https://api.github.com/users/ncptunex/orgs",
+    "repos_url": "https://api.github.com/users/ncptunex/repos",
+    "events_url": "https://api.github.com/users/ncptunex/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ncptunex/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": null,
+    "company": null,
+    "blog": "",
+    "location": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 9,
+    "public_gists": 0,
+    "followers": 1,
+    "following": 1,
+    "created_at": "2025-10-02T05:46:39Z",
+    "updated_at": "2026-03-05T13:35:57Z"
+  }
+}

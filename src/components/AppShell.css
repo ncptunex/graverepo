@@ -1,0 +1,36 @@
+/* Hidden until it has keyboard focus, then shown at the top of the page. */
+.app-shell__skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-bg);
+  transform: translateY(-100%);
+}
+
+.app-shell__skip-link:focus {
+  transform: translateY(0);
+}
+
+.app-shell__header {
+  padding: var(--space-3) var(--gutter);
+  border-bottom: 1px solid rgb(195 181 255 / 0.25);
+  background: linear-gradient(180deg, var(--color-night-deep), rgb(8 10 24 / 0.6));
+}
+
+.app-shell__footer {
+  padding: var(--space-8) var(--gutter) var(--space-12);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.app-shell__footer p {
+  margin-inline: auto;
+  white-space: pre-line;
+}
+
+/* The main element takes focus by script only, so it needs no outline of its own. */
+.app-shell__main:focus {
+  outline: none;
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Workflow runs not found: 404 on GET /repos/{owner}/{repo}/actions/runs"
+  },
+  "status": 404,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "10",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/actions/workflow-runs#list-workflow-runs-for-a-repository",
+    "status": "404"
+  }
+}

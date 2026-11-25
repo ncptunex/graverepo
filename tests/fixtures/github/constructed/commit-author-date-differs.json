@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Commit whose author date and committer date differ (for example after a rebase); the commit date must be the committer date"
+  },
+  "status": 200,
+  "headers": {},
+  "body": [
+    {
+      "sha": "0123456789abcdef0123456789abcdef01234567",
+      "html_url": "https://github.com/example-user/example-repo/commit/0123456789abcdef0123456789abcdef01234567",
+      "commit": {
+        "author": { "name": "Example Author", "date": "2025-03-01T10:00:00Z" },
+        "committer": { "name": "Example Committer", "date": "2026-06-15T18:45:00Z" },
+        "message": "Example commit"
+      },
+      "author": null,
+      "committer": null
+    }
+  ]
+}

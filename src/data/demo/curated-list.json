@@ -1,0 +1,15 @@
+{
+  "note": "The approved demo sources (decision D9). Keep in step with section 7 of demo-notes.md; a test checks this.",
+  "owner": "ncptunex",
+  "repositories": [
+    "ncptunex/Kiroween-2026-GRAVEREPO",
+    "ncptunex/foodstarter",
+    "ncptunex/devops-micro-internship-pravinmishra",
+    "atom/atom",
+    "dubzzz/fast-check",
+    "ncptunex/mae-learnimal-asgm",
+    "ncptunex/GrandStay",
+    "ncptunex/ioop-assignment-sedapMakan"
+  ],
+  "noReadmeCheckFirst": "ncptunex/Kiroween-2026-GRAVEREPO"
+}

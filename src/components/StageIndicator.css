@@ -1,0 +1,40 @@
+.stage-indicator__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stage-indicator__button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: var(--target-min);
+  min-height: var(--target-min);
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid currentColor;
+  border-radius: 999px;
+  background: rgb(8 10 24 / 0.35);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* The current stage also differs by weight and a heavier border, not by colour alone. */
+.stage-indicator__button--current {
+  border-width: 4px;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-weight: 700;
+}
+
+.stage-indicator__button[aria-disabled='true'] {
+  border-style: dashed;
+  cursor: not-allowed;
+}
+
+.stage-indicator__shape {
+  flex: none;
+}

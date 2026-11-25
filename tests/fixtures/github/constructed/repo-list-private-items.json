@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Repository list containing non-public items: one public item, one marked private with visibility private, one with visibility internal, and one marked private with no visibility field; only the public item may be kept"
+  },
+  "status": 200,
+  "headers": {},
+  "body": [
+    {
+      "id": 3000001,
+      "name": "public-item",
+      "full_name": "example-org/public-item",
+      "owner": { "login": "example-org", "type": "Organization" },
+      "html_url": "https://github.com/example-org/public-item",
+      "private": false,
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": 3000002,
+      "name": "private-item",
+      "full_name": "example-org/private-item",
+      "owner": { "login": "example-org", "type": "Organization" },
+      "html_url": "https://github.com/example-org/private-item",
+      "private": true,
+      "visibility": "private",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-02T08:00:00Z"
+    },
+    {
+      "id": 3000003,
+      "name": "internal-item",
+      "full_name": "example-org/internal-item",
+      "owner": { "login": "example-org", "type": "Organization" },
+      "html_url": "https://github.com/example-org/internal-item",
+      "private": false,
+      "visibility": "internal",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-03T08:00:00Z"
+    },
+    {
+      "id": 3000004,
+      "name": "private-flag-only",
+      "full_name": "example-org/private-flag-only",
+      "owner": { "login": "example-org", "type": "Organization" },
+      "html_url": "https://github.com/example-org/private-flag-only",
+      "private": true,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-04T08:00:00Z"
+    }
+  ]
+}

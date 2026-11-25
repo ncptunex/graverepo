@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Empty repository: 404 on GET /repos/{owner}/{repo}/contents for a repository with no commits (no real public empty repository was captured)"
+  },
+  "status": 404,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "10",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "This repository is empty.",
+    "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+    "status": "404"
+  }
+}

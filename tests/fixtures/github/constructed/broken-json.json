@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Broken JSON: a 200 response whose body is cut off part-way, so it cannot be parsed"
+  },
+  "status": 200,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "10",
+    "x-ratelimit-resource": "core"
+  },
+  "rawBody": "{\"login\":\"example-user\",\"id\":1000001,\"html_url\":\"https://github.com/example-us"
+}

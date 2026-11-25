@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Issues turned off: 410 on GET /repos/{owner}/{repo}/issues"
+  },
+  "status": 410,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "10",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Issues are disabled for this repo",
+    "documentation_url": "https://docs.github.com/rest/issues/issues#list-repository-issues",
+    "status": "410"
+  }
+}

@@ -1,0 +1,70 @@
+/* The Living: a flourishing garden above the list of repositories revived in GRAVEREPO. */
+.living__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+.living__item {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  border-color: rgb(123 227 176 / 0.5);
+}
+
+.living__item .stack > * + * {
+  margin-top: var(--space-2);
+}
+
+.living__item .stage-glyph {
+  stroke: var(--color-mint);
+  width: 40px;
+  height: 40px;
+}
+
+.living__empty {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+/* `.plain-list` zeroes the list's margin and wins over `.stack > * + *`, so restore the gap. */
+.living > .living__list {
+  margin-top: var(--space-4);
+}
+
+@media (min-width: 40rem) {
+  .living__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 48rem) {
+  .living__list {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .living {
+    display: grid;
+    grid-template-columns: minmax(20rem, 30rem) minmax(0, 1fr);
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .living > h1,
+  .living > p {
+    grid-column: 1 / -1;
+  }
+
+  .living > .garden {
+    grid-column: 1;
+    margin-top: var(--space-4);
+  }
+
+  .living > .living__list {
+    grid-column: 2;
+    margin-top: var(--space-4);
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "User not found: 404 on GET /users/{owner} for an account that does not exist"
+  },
+  "status": 404,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "52",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "8",
+    "x-ratelimit-resource": "core"
+  },
+  "body": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/users/users#get-a-user",
+    "status": "404"
+  }
+}

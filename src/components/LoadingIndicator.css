@@ -1,0 +1,26 @@
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.loading-indicator__shape {
+  flex: none;
+}
+
+/* A small ghost bobs while we wait. Reduced motion: it stands still and the text stays. */
+@media (prefers-reduced-motion: no-preference) {
+  .loading-indicator__shape {
+    animation: loading-indicator-bob 1.4s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes loading-indicator-bob {
+  from {
+    translate: 0 2px;
+  }
+  to {
+    translate: 0 -5px;
+  }
+}

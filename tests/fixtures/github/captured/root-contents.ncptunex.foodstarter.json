@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "endpoint": "/repos/ncptunex/foodstarter/contents",
+    "capturedAt": "2026-11-22T12:56:48.851Z",
+    "source": "ncptunex/foodstarter",
+    "capturedWith": "Chrome DevTools MCP (browser fetch, unauthenticated)",
+    "status": 200,
+    "redactions": []
+  },
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "36",
+    "x-ratelimit-reset": "1795355619",
+    "x-ratelimit-used": "24",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "name": ".cta.json",
+      "path": ".cta.json",
+      "sha": "818ca29b087bee3060cbb1e2cfde43f7c14c6228",
+      "size": 394,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/.cta.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/.cta.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/818ca29b087bee3060cbb1e2cfde43f7c14c6228",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/.cta.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/.cta.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/818ca29b087bee3060cbb1e2cfde43f7c14c6228",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/.cta.json"
+      }
+    },
+    {
+      "name": ".env.test",
+      "path": ".env.test",
+      "sha": "6b5854c910ef4cc0319429b78ecfc044eb1c5b39",
+      "size": 154,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/.env.test?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/.env.test",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/6b5854c910ef4cc0319429b78ecfc044eb1c5b39",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/.env.test",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/.env.test?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/6b5854c910ef4cc0319429b78ecfc044eb1c5b39",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/.env.test"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "8b25bb54ef8a16884fd5eb6f75aaf02dab7fe1d8",
+      "size": 115,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/8b25bb54ef8a16884fd5eb6f75aaf02dab7fe1d8",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/8b25bb54ef8a16884fd5eb6f75aaf02dab7fe1d8",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": ".kiro",
+      "path": ".kiro",
+      "sha": "de674b31cf25a12e4e0d46fc8713053027e91f65",
+      "size": 0,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/.kiro?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/tree/main/.kiro",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/de674b31cf25a12e4e0d46fc8713053027e91f65",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/.kiro?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/de674b31cf25a12e4e0d46fc8713053027e91f65",
+        "html": "https://github.com/ncptunex/foodstarter/tree/main/.kiro"
+      }
+    },
+    {
+      "name": ".vscode",
+      "path": ".vscode",
+      "sha": "f157245e1c5aa2a2a9e2869ae69ad6c3cda197ae",
+      "size": 0,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/.vscode?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/tree/main/.vscode",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/f157245e1c5aa2a2a9e2869ae69ad6c3cda197ae",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/.vscode?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/f157245e1c5aa2a2a9e2869ae69ad6c3cda197ae",
+        "html": "https://github.com/ncptunex/foodstarter/tree/main/.vscode"
+      }
+    },
+    {
+      "name": "DOCKER-POSTGRES-BEST-PRACTICES.md",
+      "path": "DOCKER-POSTGRES-BEST-PRACTICES.md",
+      "sha": "c8c833b4bdc4e6fb9853e8e310add07c424b9900",
+      "size": 5792,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/DOCKER-POSTGRES-BEST-PRACTICES.md?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/DOCKER-POSTGRES-BEST-PRACTICES.md",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/c8c833b4bdc4e6fb9853e8e310add07c424b9900",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/DOCKER-POSTGRES-BEST-PRACTICES.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/DOCKER-POSTGRES-BEST-PRACTICES.md?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/c8c833b4bdc4e6fb9853e8e310add07c424b9900",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/DOCKER-POSTGRES-BEST-PRACTICES.md"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "1855836f77557b1026bad7f540fdca40cda21009",
+      "size": 6126,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/README.md?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/README.md",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/1855836f77557b1026bad7f540fdca40cda21009",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/README.md?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/1855836f77557b1026bad7f540fdca40cda21009",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/README.md"
+      }
+    },
+    {
+      "name": "TANSTACK-START-BEST-PRACTICES.md",
+      "path": "TANSTACK-START-BEST-PRACTICES.md",
+      "sha": "f2bb42bd5834ae13e0e37dc451fd16fd0e34097e",
+      "size": 26939,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/TANSTACK-START-BEST-PRACTICES.md?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/TANSTACK-START-BEST-PRACTICES.md",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/f2bb42bd5834ae13e0e37dc451fd16fd0e34097e",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/TANSTACK-START-BEST-PRACTICES.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/TANSTACK-START-BEST-PRACTICES.md?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/f2bb42bd5834ae13e0e37dc451fd16fd0e34097e",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/TANSTACK-START-BEST-PRACTICES.md"
+      }
+    },
+    {
+      "name": "biome.json",
+      "path": "biome.json",
+      "sha": "033c04c09153dc8fc5fe54dbead815ddb8056f49",
+      "size": 622,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/biome.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/biome.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/033c04c09153dc8fc5fe54dbead815ddb8056f49",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/biome.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/biome.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/033c04c09153dc8fc5fe54dbead815ddb8056f49",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/biome.json"
+      }
+    },
+    {
+      "name": "docker-compose.test.yml",
+      "path": "docker-compose.test.yml",
+      "sha": "aae857ebe81c825a416438fbc1ece886a5511ef7",
+      "size": 607,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/docker-compose.test.yml?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/docker-compose.test.yml",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/aae857ebe81c825a416438fbc1ece886a5511ef7",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/docker-compose.test.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/docker-compose.test.yml?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/aae857ebe81c825a416438fbc1ece886a5511ef7",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/docker-compose.test.yml"
+      }
+    },
+    {
+      "name": "docker-compose.yml",
+      "path": "docker-compose.yml",
+      "sha": "d1b098348c46a66794b2049863dfc5e4e6786e07",
+      "size": 679,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/docker-compose.yml?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/docker-compose.yml",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/d1b098348c46a66794b2049863dfc5e4e6786e07",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/docker-compose.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/docker-compose.yml?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/d1b098348c46a66794b2049863dfc5e4e6786e07",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/docker-compose.yml"
+      }
+    },
+    {
+      "name": "drizzle.config.ts",
+      "path": "drizzle.config.ts",
+      "sha": "44a3ae3a40d8953a5a4f14de25df637a9a4306cf",
+      "size": 514,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/drizzle.config.ts?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/drizzle.config.ts",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/44a3ae3a40d8953a5a4f14de25df637a9a4306cf",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/drizzle.config.ts",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/drizzle.config.ts?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/44a3ae3a40d8953a5a4f14de25df637a9a4306cf",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/drizzle.config.ts"
+      }
+    },
+    {
+      "name": "drizzle",
+      "path": "drizzle",
+      "sha": "b584ea34b2f29b8a3cedd1c7adcef596ed809ac4",
+      "size": 0,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/drizzle?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/tree/main/drizzle",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/b584ea34b2f29b8a3cedd1c7adcef596ed809ac4",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/drizzle?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/b584ea34b2f29b8a3cedd1c7adcef596ed809ac4",
+        "html": "https://github.com/ncptunex/foodstarter/tree/main/drizzle"
+      }
+    },
+    {
+      "name": "package-lock.json",
+      "path": "package-lock.json",
+      "sha": "df8a934d41efdd77b8efbc9a7e0025679cd0491d",
+      "size": 151242,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/package-lock.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/package-lock.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/df8a934d41efdd77b8efbc9a7e0025679cd0491d",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/package-lock.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/package-lock.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/df8a934d41efdd77b8efbc9a7e0025679cd0491d",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/package-lock.json"
+      }
+    },
+    {
+      "name": "package.json",
+      "path": "package.json",
+      "sha": "0cca0e389f7dc4b73a2e98540e735c251da74491",
+      "size": 2228,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/package.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/package.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/0cca0e389f7dc4b73a2e98540e735c251da74491",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/package.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/package.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/0cca0e389f7dc4b73a2e98540e735c251da74491",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/package.json"
+      }
+    },
+    {
+      "name": "pnpm-lock.yaml",
+      "path": "pnpm-lock.yaml",
+      "sha": "3efe47c6e8821d82b6e704f99cf70f8f60cd0267",
+      "size": 170688,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/pnpm-lock.yaml?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/pnpm-lock.yaml",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/3efe47c6e8821d82b6e704f99cf70f8f60cd0267",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/pnpm-lock.yaml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/pnpm-lock.yaml?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/3efe47c6e8821d82b6e704f99cf70f8f60cd0267",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/pnpm-lock.yaml"
+      }
+    },
+    {
+      "name": "pnpm-workspace.yaml",
+      "path": "pnpm-workspace.yaml",
+      "sha": "0da9b3f9d92768446cb6175aa8f9b8063df32163",
+      "size": 284,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/pnpm-workspace.yaml?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/pnpm-workspace.yaml",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/0da9b3f9d92768446cb6175aa8f9b8063df32163",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/pnpm-workspace.yaml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/pnpm-workspace.yaml?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/0da9b3f9d92768446cb6175aa8f9b8063df32163",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/pnpm-workspace.yaml"
+      }
+    },
+    {
+      "name": "src",
+      "path": "src",
+      "sha": "7de7d735fca9e46f013b139272403852b7947c50",
+      "size": 0,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/src?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/tree/main/src",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/7de7d735fca9e46f013b139272403852b7947c50",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/src?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/trees/7de7d735fca9e46f013b139272403852b7947c50",
+        "html": "https://github.com/ncptunex/foodstarter/tree/main/src"
+      }
+    },
+    {
+      "name": "tsconfig.json",
+      "path": "tsconfig.json",
+      "sha": "14525f4a50982bb8131d054a28003afb7110197c",
+      "size": 649,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/tsconfig.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/tsconfig.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/14525f4a50982bb8131d054a28003afb7110197c",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/tsconfig.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/tsconfig.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/14525f4a50982bb8131d054a28003afb7110197c",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/tsconfig.json"
+      }
+    },
+    {
+      "name": "tsr.config.json",
+      "path": "tsr.config.json",
+      "sha": "8b6b6eddb26d6d7d7baa2a4b93d0dade58482077",
+      "size": 24,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/tsr.config.json?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/tsr.config.json",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/8b6b6eddb26d6d7d7baa2a4b93d0dade58482077",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/tsr.config.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/tsr.config.json?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/8b6b6eddb26d6d7d7baa2a4b93d0dade58482077",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/tsr.config.json"
+      }
+    },
+    {
+      "name": "vite.config.ts",
+      "path": "vite.config.ts",
+      "sha": "db74a743b7f6b38e700739b3bf452b52ca618b15",
+      "size": 517,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/vite.config.ts?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/vite.config.ts",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/db74a743b7f6b38e700739b3bf452b52ca618b15",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/vite.config.ts",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/vite.config.ts?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/db74a743b7f6b38e700739b3bf452b52ca618b15",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/vite.config.ts"
+      }
+    },
+    {
+      "name": "vitest.config.ts",
+      "path": "vitest.config.ts",
+      "sha": "b265d8c3f1fbeefd34ceac39a4c8097feabaf464",
+      "size": 360,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/vitest.config.ts?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/vitest.config.ts",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/b265d8c3f1fbeefd34ceac39a4c8097feabaf464",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/vitest.config.ts",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/vitest.config.ts?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/b265d8c3f1fbeefd34ceac39a4c8097feabaf464",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/vitest.config.ts"
+      }
+    },
+    {
+      "name": "vitest.integration.config.ts",
+      "path": "vitest.integration.config.ts",
+      "sha": "6eb7844a3c6cc95b5d975cb9990ecc2a6b41bc41",
+      "size": 839,
+      "url": "https://api.github.com/repos/ncptunex/foodstarter/contents/vitest.integration.config.ts?ref=main",
+      "html_url": "https://github.com/ncptunex/foodstarter/blob/main/vitest.integration.config.ts",
+      "git_url": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/6eb7844a3c6cc95b5d975cb9990ecc2a6b41bc41",
+      "download_url": "https://raw.githubusercontent.com/ncptunex/foodstarter/main/vitest.integration.config.ts",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ncptunex/foodstarter/contents/vitest.integration.config.ts?ref=main",
+        "git": "https://api.github.com/repos/ncptunex/foodstarter/git/blobs/6eb7844a3c6cc95b5d975cb9990ecc2a6b41bc41",
+        "html": "https://github.com/ncptunex/foodstarter/blob/main/vitest.integration.config.ts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "GitHub server error: 500 Server Error"
+  },
+  "status": 500,
+  "headers": {},
+  "body": {
+    "message": "Server Error",
+    "documentation_url": "https://docs.github.com/rest",
+    "status": "500"
+  }
+}

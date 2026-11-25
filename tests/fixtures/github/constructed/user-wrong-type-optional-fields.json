@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Wrong-type and empty optional fields: a user profile whose name is a number, avatar_url is null and public_repos is text; each must become null"
+  },
+  "status": 200,
+  "headers": {},
+  "body": {
+    "login": "example-user",
+    "id": 1000001,
+    "avatar_url": null,
+    "html_url": "https://github.com/example-user",
+    "type": "User",
+    "name": 42,
+    "public_repos": "many"
+  }
+}

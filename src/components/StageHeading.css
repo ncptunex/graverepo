@@ -1,0 +1,5 @@
+/* The heading takes focus by script. The shared :focus-visible rule still applies to keyboard focus. */
+.stage-heading:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}

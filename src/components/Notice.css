@@ -1,0 +1,41 @@
+.notice {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid currentColor;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, currentColor 9%, var(--color-surface));
+  box-shadow: var(--shadow-soft);
+}
+
+/* Border style is an extra non-colour cue per variant. */
+.notice--info {
+  border-style: solid;
+}
+
+.notice--warning {
+  border-style: dashed;
+}
+
+.notice--error {
+  border-style: double;
+  border-width: 4px;
+}
+
+.notice--success {
+  border-style: solid;
+  border-width: 3px;
+}
+
+.notice__icon {
+  flex: none;
+  margin-top: var(--space-1);
+}
+
+.notice__label {
+  display: block;
+}
+
+.notice__text {
+  overflow-wrap: anywhere;
+}

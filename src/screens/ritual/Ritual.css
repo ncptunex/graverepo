@@ -1,0 +1,226 @@
+/* Rising: the garden above the checklist, a mint meter and stone-tablet steps. */
+.rising__progress .garden {
+  margin-inline: 0;
+}
+
+.rising__meter {
+  width: 100%;
+  max-width: 28rem;
+  height: var(--space-4);
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  background: var(--color-night-deep);
+  accent-color: var(--color-mint);
+  overflow: hidden;
+}
+
+.rising__meter::-webkit-progress-bar {
+  background: var(--color-night-deep);
+  border-radius: 999px;
+}
+
+.rising__meter::-webkit-progress-value {
+  background: var(--color-mint);
+  border-radius: 999px;
+  transition: width 0.6s var(--ease-out);
+}
+
+.rising__meter::-moz-progress-bar {
+  background: var(--color-mint);
+  border-radius: 999px;
+}
+
+.rising__list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: var(--space-4);
+  border: 1px solid rgb(195 181 255 / 0.4);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, var(--color-stone), var(--color-surface));
+}
+
+.rising__list legend {
+  padding: 0 var(--space-2);
+  font-weight: 700;
+}
+
+.rising__item {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  min-height: var(--target-min);
+  padding: var(--space-3);
+  border: 1px solid rgb(195 181 255 / 0.25);
+  border-radius: var(--radius-sm);
+  background: rgb(8 10 24 / 0.35);
+  cursor: pointer;
+}
+
+.rising__item:has(input:checked) {
+  border-color: var(--color-mint);
+}
+
+/* A drawn tick box. It is still a native checkbox, so keyboard and screen readers work as before. */
+.rising__item input {
+  appearance: none;
+  flex: none;
+  display: grid;
+  place-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: var(--space-1) 0 0;
+  border: 2px solid var(--color-lavender);
+  border-radius: 6px;
+  background: var(--color-night-deep);
+  cursor: pointer;
+}
+
+.rising__item input::after {
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  background: var(--color-night-deep);
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+}
+
+.rising__item input:checked {
+  border-color: var(--color-mint);
+  background: var(--color-mint);
+}
+
+.rising__item input:checked::after {
+  transform: scale(1);
+}
+
+.rising__item input:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rising__item input::after {
+    transition: transform 0.2s var(--ease-out);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rising__meter::-webkit-progress-value {
+    transition: none;
+  }
+}
+
+.rising__step {
+  font-weight: 700;
+}
+
+.rising__because {
+  display: block;
+}
+/* ---- Wider screens: use the width for the evidence, the plan, the checklist and the garden ---- */
+/* Same specificity as `.stack > * + *` in base.css, so these two rules need the extra class to win. */
+.plan__list.stack > * + * {
+  margin-top: 0;
+}
+
+/* `.plain-list` zeroes the list's own margin, which removed the gap above it. */
+.stack > .plan__list {
+  margin-top: var(--space-4);
+}
+
+.plan__list {
+  display: grid;
+  gap: var(--space-4);
+}
+
+@media (min-width: 48rem) {
+  .plan__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4);
+    align-items: start;
+  }
+}
+
+@media (min-width: 75rem) {
+  .plan__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* From 1024px up there is room for two columns, so the page does not leave half the width empty. */
+@media (min-width: 64rem) {
+  /* Necropsy: the condition on the left, the findings on the right. */
+  .necropsy {
+    display: grid;
+    grid-template-columns: minmax(18rem, 24rem) minmax(0, 1fr);
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .necropsy > * {
+    grid-column: 1 / -1;
+  }
+
+  .necropsy > .necropsy__condition {
+    grid-column: 1;
+    position: sticky;
+    top: var(--space-4);
+  }
+
+  .necropsy > .necropsy__findings,
+  .necropsy > .necropsy__na {
+    grid-column: 2;
+  }
+
+  .necropsy > .necropsy__findings {
+    margin-top: var(--space-4);
+  }
+
+  .necropsy > .necropsy__condition + .necropsy__findings {
+    margin-top: 0;
+  }
+
+  /* Rising: the garden on the left, the notes and checklist on the right. */
+  .rising {
+    display: grid;
+    grid-template-columns: minmax(20rem, 30rem) minmax(0, 1fr);
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .rising > * {
+    grid-column: 2;
+  }
+
+  .rising > .rising__progress {
+    grid-column: 1;
+    grid-row: 1 / span 8;
+    position: sticky;
+    top: var(--space-4);
+    margin-top: 0;
+  }
+
+  .rising > .rising__progress + * {
+    margin-top: 0;
+  }
+
+  .rising__meter {
+    max-width: none;
+  }
+}
+
+/* The evidence reveal. The summary is a control, so it gets the 44px target (design-system.md 3.4).
+   Evidence values can be long unbroken text (for example a raw JSON field), so they wrap instead of
+   pushing the page wider than a 320px screen. */
+.plan__list summary {
+  padding-block: var(--space-2);
+  min-height: var(--target-min);
+  cursor: pointer;
+}
+
+.plan__list details {
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,178 @@
+/* Tombstone card: an arched stone standing on a little plot. The foot picture changes with the
+   condition (see scenery/TombstoneBase). Text and the icon carry the status; the art is extra. */
+.tombstone {
+  position: relative;
+  list-style: none;
+  padding-top: var(--space-6);
+}
+
+/* A ghost behind the stone. It peeks over the top on hover or keyboard focus. */
+.tombstone__ghost {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  z-index: 0;
+  opacity: 0;
+  translate: 0 30px;
+  pointer-events: none;
+}
+
+.tombstone__button {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  min-height: var(--target-min);
+  padding: var(--space-8) var(--space-4) calc(var(--space-12) - var(--space-1));
+  overflow: hidden;
+  border: 2px solid var(--color-border);
+  /* Tombstone shape: a deep round arch on top, square feet. */
+  border-radius: 5rem 5rem var(--radius-sm) var(--radius-sm);
+  background: linear-gradient(180deg, var(--color-stone-hi) 0%, var(--color-stone) 55%);
+  box-shadow:
+    inset 0 0 0 6px var(--color-stone),
+    inset 0 0 0 7px rgb(195 181 255 / 0.22),
+    var(--shadow-soft);
+  color: var(--color-text);
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* The condition tints the stone slightly. The label and icon still say what it is. */
+.tombstone[data-condition='recently-updated'] .tombstone__button {
+  background: linear-gradient(180deg, #3a4a6c 0%, var(--color-stone) 55%);
+}
+
+.tombstone[data-condition='dormant'] .tombstone__button {
+  background: linear-gradient(180deg, #2a2e55 0%, #22254a 55%);
+}
+
+.tombstone[data-condition='archived'] .tombstone__button {
+  border-style: double;
+  border-width: 5px;
+}
+
+.tombstone[data-condition='empty'] .tombstone__button,
+.tombstone[data-condition='last-update-unknown'] .tombstone__button {
+  border-style: dashed;
+}
+
+.tombstone__button:hover {
+  border-color: var(--color-lavender);
+  box-shadow:
+    inset 0 0 0 6px var(--color-stone),
+    inset 0 0 0 7px rgb(195 181 255 / 0.45),
+    var(--shadow-lift);
+}
+
+.tombstone__name {
+  max-width: 100%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.tombstone__status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid rgb(195 181 255 / 0.5);
+  border-radius: 999px;
+  background: rgb(8 10 24 / 0.35);
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.tombstone__icon {
+  flex: none;
+}
+
+.tombstone__fact,
+.tombstone__description {
+  overflow-wrap: anywhere;
+}
+
+.tombstone__fact {
+  font-size: 0.9375rem;
+}
+
+.tombstone__description {
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+}
+
+.tombstone__flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.tombstone__flags:empty {
+  display: none;
+}
+
+.tombstone__flag {
+  padding: 0 var(--space-2);
+  border: 1px solid currentColor;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .tombstone__button {
+    transition:
+      transform 0.25s var(--ease-out),
+      box-shadow 0.25s var(--ease-out),
+      border-color 0.25s var(--ease-out);
+  }
+
+  .tombstone__button:hover,
+  .tombstone__button:focus-visible {
+    transform: translateY(-3px);
+  }
+
+  .tombstone__ghost {
+    transition:
+      opacity 0.35s var(--ease-out),
+      translate 0.45s var(--ease-out);
+  }
+}
+
+/* The ghost shows on hover and on keyboard focus. Reduced motion: it simply appears. */
+.tombstone:hover .tombstone__ghost,
+.tombstone:focus-within .tombstone__ghost {
+  opacity: 1;
+  translate: 0 4px;
+}
+
+/* A phone has no hover, so the ghost stays out of the way there. */
+@media (hover: none) {
+  .tombstone__ghost {
+    display: none;
+  }
+}
+
+/* Desktop: bigger stones with roomier type, the arch grows with the card. */
+@media (min-width: 75rem) {
+  .tombstone__button {
+    padding: var(--space-12) var(--space-6) var(--space-16);
+    border-radius: 7rem 7rem var(--radius-sm) var(--radius-sm);
+  }
+
+  .tombstone__name {
+    font-size: 1.25rem;
+  }
+
+  .tombstone__fact,
+  .tombstone__description {
+    font-size: 1rem;
+  }
+}

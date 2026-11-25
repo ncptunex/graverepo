@@ -1,0 +1,1416 @@
+{
+  "meta": {
+    "constructed": true,
+    "case": "Merged issues request returning 100 open items, oldest first, that are all pull requests: 0 issues counted as a lower bound, and the oldest issue was not found in the first 100 items"
+  },
+  "status": 200,
+  "headers": {
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "50",
+    "x-ratelimit-reset": "1795359600",
+    "x-ratelimit-used": "10",
+    "x-ratelimit-resource": "core"
+  },
+  "body": [
+    {
+      "number": 5000,
+      "title": "Pull request 5000",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5000",
+      "state": "open",
+      "created_at": "2024-01-01T00:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5000",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5000"
+      }
+    },
+    {
+      "number": 5001,
+      "title": "Pull request 5001",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5001",
+      "state": "open",
+      "created_at": "2024-01-01T01:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5001",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5001"
+      }
+    },
+    {
+      "number": 5002,
+      "title": "Pull request 5002",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5002",
+      "state": "open",
+      "created_at": "2024-01-01T02:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5002",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5002"
+      }
+    },
+    {
+      "number": 5003,
+      "title": "Pull request 5003",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5003",
+      "state": "open",
+      "created_at": "2024-01-01T03:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5003",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5003"
+      }
+    },
+    {
+      "number": 5004,
+      "title": "Pull request 5004",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5004",
+      "state": "open",
+      "created_at": "2024-01-01T04:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5004",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5004"
+      }
+    },
+    {
+      "number": 5005,
+      "title": "Pull request 5005",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5005",
+      "state": "open",
+      "created_at": "2024-01-01T05:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5005",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5005"
+      }
+    },
+    {
+      "number": 5006,
+      "title": "Pull request 5006",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5006",
+      "state": "open",
+      "created_at": "2024-01-01T06:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5006",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5006"
+      }
+    },
+    {
+      "number": 5007,
+      "title": "Pull request 5007",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5007",
+      "state": "open",
+      "created_at": "2024-01-01T07:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5007",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5007"
+      }
+    },
+    {
+      "number": 5008,
+      "title": "Pull request 5008",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5008",
+      "state": "open",
+      "created_at": "2024-01-01T08:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5008",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5008"
+      }
+    },
+    {
+      "number": 5009,
+      "title": "Pull request 5009",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5009",
+      "state": "open",
+      "created_at": "2024-01-01T09:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5009",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5009"
+      }
+    },
+    {
+      "number": 5010,
+      "title": "Pull request 5010",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5010",
+      "state": "open",
+      "created_at": "2024-01-01T10:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5010",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5010"
+      }
+    },
+    {
+      "number": 5011,
+      "title": "Pull request 5011",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5011",
+      "state": "open",
+      "created_at": "2024-01-01T11:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5011",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5011"
+      }
+    },
+    {
+      "number": 5012,
+      "title": "Pull request 5012",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5012",
+      "state": "open",
+      "created_at": "2024-01-01T12:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5012",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5012"
+      }
+    },
+    {
+      "number": 5013,
+      "title": "Pull request 5013",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5013",
+      "state": "open",
+      "created_at": "2024-01-01T13:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5013",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5013"
+      }
+    },
+    {
+      "number": 5014,
+      "title": "Pull request 5014",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5014",
+      "state": "open",
+      "created_at": "2024-01-01T14:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5014",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5014"
+      }
+    },
+    {
+      "number": 5015,
+      "title": "Pull request 5015",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5015",
+      "state": "open",
+      "created_at": "2024-01-01T15:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5015",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5015"
+      }
+    },
+    {
+      "number": 5016,
+      "title": "Pull request 5016",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5016",
+      "state": "open",
+      "created_at": "2024-01-01T16:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5016",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5016"
+      }
+    },
+    {
+      "number": 5017,
+      "title": "Pull request 5017",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5017",
+      "state": "open",
+      "created_at": "2024-01-01T17:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5017",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5017"
+      }
+    },
+    {
+      "number": 5018,
+      "title": "Pull request 5018",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5018",
+      "state": "open",
+      "created_at": "2024-01-01T18:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5018",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5018"
+      }
+    },
+    {
+      "number": 5019,
+      "title": "Pull request 5019",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5019",
+      "state": "open",
+      "created_at": "2024-01-01T19:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5019",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5019"
+      }
+    },
+    {
+      "number": 5020,
+      "title": "Pull request 5020",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5020",
+      "state": "open",
+      "created_at": "2024-01-01T20:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5020",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5020"
+      }
+    },
+    {
+      "number": 5021,
+      "title": "Pull request 5021",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5021",
+      "state": "open",
+      "created_at": "2024-01-01T21:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5021",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5021"
+      }
+    },
+    {
+      "number": 5022,
+      "title": "Pull request 5022",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5022",
+      "state": "open",
+      "created_at": "2024-01-01T22:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5022",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5022"
+      }
+    },
+    {
+      "number": 5023,
+      "title": "Pull request 5023",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5023",
+      "state": "open",
+      "created_at": "2024-01-01T23:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5023",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5023"
+      }
+    },
+    {
+      "number": 5024,
+      "title": "Pull request 5024",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5024",
+      "state": "open",
+      "created_at": "2024-01-02T00:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5024",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5024"
+      }
+    },
+    {
+      "number": 5025,
+      "title": "Pull request 5025",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5025",
+      "state": "open",
+      "created_at": "2024-01-02T01:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5025",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5025"
+      }
+    },
+    {
+      "number": 5026,
+      "title": "Pull request 5026",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5026",
+      "state": "open",
+      "created_at": "2024-01-02T02:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5026",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5026"
+      }
+    },
+    {
+      "number": 5027,
+      "title": "Pull request 5027",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5027",
+      "state": "open",
+      "created_at": "2024-01-02T03:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5027",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5027"
+      }
+    },
+    {
+      "number": 5028,
+      "title": "Pull request 5028",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5028",
+      "state": "open",
+      "created_at": "2024-01-02T04:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5028",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5028"
+      }
+    },
+    {
+      "number": 5029,
+      "title": "Pull request 5029",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5029",
+      "state": "open",
+      "created_at": "2024-01-02T05:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5029",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5029"
+      }
+    },
+    {
+      "number": 5030,
+      "title": "Pull request 5030",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5030",
+      "state": "open",
+      "created_at": "2024-01-02T06:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5030",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5030"
+      }
+    },
+    {
+      "number": 5031,
+      "title": "Pull request 5031",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5031",
+      "state": "open",
+      "created_at": "2024-01-02T07:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5031",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5031"
+      }
+    },
+    {
+      "number": 5032,
+      "title": "Pull request 5032",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5032",
+      "state": "open",
+      "created_at": "2024-01-02T08:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5032",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5032"
+      }
+    },
+    {
+      "number": 5033,
+      "title": "Pull request 5033",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5033",
+      "state": "open",
+      "created_at": "2024-01-02T09:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5033",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5033"
+      }
+    },
+    {
+      "number": 5034,
+      "title": "Pull request 5034",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5034",
+      "state": "open",
+      "created_at": "2024-01-02T10:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5034",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5034"
+      }
+    },
+    {
+      "number": 5035,
+      "title": "Pull request 5035",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5035",
+      "state": "open",
+      "created_at": "2024-01-02T11:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5035",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5035"
+      }
+    },
+    {
+      "number": 5036,
+      "title": "Pull request 5036",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5036",
+      "state": "open",
+      "created_at": "2024-01-02T12:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5036",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5036"
+      }
+    },
+    {
+      "number": 5037,
+      "title": "Pull request 5037",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5037",
+      "state": "open",
+      "created_at": "2024-01-02T13:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5037",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5037"
+      }
+    },
+    {
+      "number": 5038,
+      "title": "Pull request 5038",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5038",
+      "state": "open",
+      "created_at": "2024-01-02T14:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5038",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5038"
+      }
+    },
+    {
+      "number": 5039,
+      "title": "Pull request 5039",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5039",
+      "state": "open",
+      "created_at": "2024-01-02T15:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5039",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5039"
+      }
+    },
+    {
+      "number": 5040,
+      "title": "Pull request 5040",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5040",
+      "state": "open",
+      "created_at": "2024-01-02T16:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5040",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5040"
+      }
+    },
+    {
+      "number": 5041,
+      "title": "Pull request 5041",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5041",
+      "state": "open",
+      "created_at": "2024-01-02T17:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5041",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5041"
+      }
+    },
+    {
+      "number": 5042,
+      "title": "Pull request 5042",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5042",
+      "state": "open",
+      "created_at": "2024-01-02T18:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5042",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5042"
+      }
+    },
+    {
+      "number": 5043,
+      "title": "Pull request 5043",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5043",
+      "state": "open",
+      "created_at": "2024-01-02T19:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5043",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5043"
+      }
+    },
+    {
+      "number": 5044,
+      "title": "Pull request 5044",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5044",
+      "state": "open",
+      "created_at": "2024-01-02T20:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5044",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5044"
+      }
+    },
+    {
+      "number": 5045,
+      "title": "Pull request 5045",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5045",
+      "state": "open",
+      "created_at": "2024-01-02T21:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5045",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5045"
+      }
+    },
+    {
+      "number": 5046,
+      "title": "Pull request 5046",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5046",
+      "state": "open",
+      "created_at": "2024-01-02T22:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5046",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5046"
+      }
+    },
+    {
+      "number": 5047,
+      "title": "Pull request 5047",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5047",
+      "state": "open",
+      "created_at": "2024-01-02T23:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5047",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5047"
+      }
+    },
+    {
+      "number": 5048,
+      "title": "Pull request 5048",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5048",
+      "state": "open",
+      "created_at": "2024-01-03T00:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5048",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5048"
+      }
+    },
+    {
+      "number": 5049,
+      "title": "Pull request 5049",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5049",
+      "state": "open",
+      "created_at": "2024-01-03T01:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5049",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5049"
+      }
+    },
+    {
+      "number": 5050,
+      "title": "Pull request 5050",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5050",
+      "state": "open",
+      "created_at": "2024-01-03T02:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5050",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5050"
+      }
+    },
+    {
+      "number": 5051,
+      "title": "Pull request 5051",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5051",
+      "state": "open",
+      "created_at": "2024-01-03T03:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5051",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5051"
+      }
+    },
+    {
+      "number": 5052,
+      "title": "Pull request 5052",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5052",
+      "state": "open",
+      "created_at": "2024-01-03T04:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5052",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5052"
+      }
+    },
+    {
+      "number": 5053,
+      "title": "Pull request 5053",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5053",
+      "state": "open",
+      "created_at": "2024-01-03T05:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5053",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5053"
+      }
+    },
+    {
+      "number": 5054,
+      "title": "Pull request 5054",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5054",
+      "state": "open",
+      "created_at": "2024-01-03T06:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5054",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5054"
+      }
+    },
+    {
+      "number": 5055,
+      "title": "Pull request 5055",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5055",
+      "state": "open",
+      "created_at": "2024-01-03T07:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5055",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5055"
+      }
+    },
+    {
+      "number": 5056,
+      "title": "Pull request 5056",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5056",
+      "state": "open",
+      "created_at": "2024-01-03T08:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5056",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5056"
+      }
+    },
+    {
+      "number": 5057,
+      "title": "Pull request 5057",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5057",
+      "state": "open",
+      "created_at": "2024-01-03T09:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5057",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5057"
+      }
+    },
+    {
+      "number": 5058,
+      "title": "Pull request 5058",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5058",
+      "state": "open",
+      "created_at": "2024-01-03T10:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5058",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5058"
+      }
+    },
+    {
+      "number": 5059,
+      "title": "Pull request 5059",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5059",
+      "state": "open",
+      "created_at": "2024-01-03T11:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5059",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5059"
+      }
+    },
+    {
+      "number": 5060,
+      "title": "Pull request 5060",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5060",
+      "state": "open",
+      "created_at": "2024-01-03T12:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5060",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5060"
+      }
+    },
+    {
+      "number": 5061,
+      "title": "Pull request 5061",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5061",
+      "state": "open",
+      "created_at": "2024-01-03T13:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5061",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5061"
+      }
+    },
+    {
+      "number": 5062,
+      "title": "Pull request 5062",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5062",
+      "state": "open",
+      "created_at": "2024-01-03T14:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5062",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5062"
+      }
+    },
+    {
+      "number": 5063,
+      "title": "Pull request 5063",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5063",
+      "state": "open",
+      "created_at": "2024-01-03T15:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5063",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5063"
+      }
+    },
+    {
+      "number": 5064,
+      "title": "Pull request 5064",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5064",
+      "state": "open",
+      "created_at": "2024-01-03T16:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5064",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5064"
+      }
+    },
+    {
+      "number": 5065,
+      "title": "Pull request 5065",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5065",
+      "state": "open",
+      "created_at": "2024-01-03T17:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5065",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5065"
+      }
+    },
+    {
+      "number": 5066,
+      "title": "Pull request 5066",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5066",
+      "state": "open",
+      "created_at": "2024-01-03T18:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5066",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5066"
+      }
+    },
+    {
+      "number": 5067,
+      "title": "Pull request 5067",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5067",
+      "state": "open",
+      "created_at": "2024-01-03T19:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5067",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5067"
+      }
+    },
+    {
+      "number": 5068,
+      "title": "Pull request 5068",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5068",
+      "state": "open",
+      "created_at": "2024-01-03T20:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5068",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5068"
+      }
+    },
+    {
+      "number": 5069,
+      "title": "Pull request 5069",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5069",
+      "state": "open",
+      "created_at": "2024-01-03T21:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5069",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5069"
+      }
+    },
+    {
+      "number": 5070,
+      "title": "Pull request 5070",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5070",
+      "state": "open",
+      "created_at": "2024-01-03T22:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5070",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5070"
+      }
+    },
+    {
+      "number": 5071,
+      "title": "Pull request 5071",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5071",
+      "state": "open",
+      "created_at": "2024-01-03T23:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5071",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5071"
+      }
+    },
+    {
+      "number": 5072,
+      "title": "Pull request 5072",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5072",
+      "state": "open",
+      "created_at": "2024-01-04T00:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5072",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5072"
+      }
+    },
+    {
+      "number": 5073,
+      "title": "Pull request 5073",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5073",
+      "state": "open",
+      "created_at": "2024-01-04T01:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5073",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5073"
+      }
+    },
+    {
+      "number": 5074,
+      "title": "Pull request 5074",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5074",
+      "state": "open",
+      "created_at": "2024-01-04T02:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5074",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5074"
+      }
+    },
+    {
+      "number": 5075,
+      "title": "Pull request 5075",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5075",
+      "state": "open",
+      "created_at": "2024-01-04T03:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5075",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5075"
+      }
+    },
+    {
+      "number": 5076,
+      "title": "Pull request 5076",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5076",
+      "state": "open",
+      "created_at": "2024-01-04T04:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5076",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5076"
+      }
+    },
+    {
+      "number": 5077,
+      "title": "Pull request 5077",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5077",
+      "state": "open",
+      "created_at": "2024-01-04T05:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5077",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5077"
+      }
+    },
+    {
+      "number": 5078,
+      "title": "Pull request 5078",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5078",
+      "state": "open",
+      "created_at": "2024-01-04T06:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5078",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5078"
+      }
+    },
+    {
+      "number": 5079,
+      "title": "Pull request 5079",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5079",
+      "state": "open",
+      "created_at": "2024-01-04T07:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5079",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5079"
+      }
+    },
+    {
+      "number": 5080,
+      "title": "Pull request 5080",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5080",
+      "state": "open",
+      "created_at": "2024-01-04T08:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5080",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5080"
+      }
+    },
+    {
+      "number": 5081,
+      "title": "Pull request 5081",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5081",
+      "state": "open",
+      "created_at": "2024-01-04T09:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5081",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5081"
+      }
+    },
+    {
+      "number": 5082,
+      "title": "Pull request 5082",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5082",
+      "state": "open",
+      "created_at": "2024-01-04T10:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5082",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5082"
+      }
+    },
+    {
+      "number": 5083,
+      "title": "Pull request 5083",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5083",
+      "state": "open",
+      "created_at": "2024-01-04T11:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5083",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5083"
+      }
+    },
+    {
+      "number": 5084,
+      "title": "Pull request 5084",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5084",
+      "state": "open",
+      "created_at": "2024-01-04T12:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5084",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5084"
+      }
+    },
+    {
+      "number": 5085,
+      "title": "Pull request 5085",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5085",
+      "state": "open",
+      "created_at": "2024-01-04T13:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5085",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5085"
+      }
+    },
+    {
+      "number": 5086,
+      "title": "Pull request 5086",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5086",
+      "state": "open",
+      "created_at": "2024-01-04T14:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5086",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5086"
+      }
+    },
+    {
+      "number": 5087,
+      "title": "Pull request 5087",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5087",
+      "state": "open",
+      "created_at": "2024-01-04T15:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5087",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5087"
+      }
+    },
+    {
+      "number": 5088,
+      "title": "Pull request 5088",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5088",
+      "state": "open",
+      "created_at": "2024-01-04T16:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5088",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5088"
+      }
+    },
+    {
+      "number": 5089,
+      "title": "Pull request 5089",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5089",
+      "state": "open",
+      "created_at": "2024-01-04T17:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5089",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5089"
+      }
+    },
+    {
+      "number": 5090,
+      "title": "Pull request 5090",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5090",
+      "state": "open",
+      "created_at": "2024-01-04T18:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5090",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5090"
+      }
+    },
+    {
+      "number": 5091,
+      "title": "Pull request 5091",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5091",
+      "state": "open",
+      "created_at": "2024-01-04T19:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5091",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5091"
+      }
+    },
+    {
+      "number": 5092,
+      "title": "Pull request 5092",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5092",
+      "state": "open",
+      "created_at": "2024-01-04T20:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5092",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5092"
+      }
+    },
+    {
+      "number": 5093,
+      "title": "Pull request 5093",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5093",
+      "state": "open",
+      "created_at": "2024-01-04T21:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5093",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5093"
+      }
+    },
+    {
+      "number": 5094,
+      "title": "Pull request 5094",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5094",
+      "state": "open",
+      "created_at": "2024-01-04T22:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5094",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5094"
+      }
+    },
+    {
+      "number": 5095,
+      "title": "Pull request 5095",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5095",
+      "state": "open",
+      "created_at": "2024-01-04T23:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5095",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5095"
+      }
+    },
+    {
+      "number": 5096,
+      "title": "Pull request 5096",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5096",
+      "state": "open",
+      "created_at": "2024-01-05T00:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5096",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5096"
+      }
+    },
+    {
+      "number": 5097,
+      "title": "Pull request 5097",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5097",
+      "state": "open",
+      "created_at": "2024-01-05T01:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5097",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5097"
+      }
+    },
+    {
+      "number": 5098,
+      "title": "Pull request 5098",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5098",
+      "state": "open",
+      "created_at": "2024-01-05T02:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5098",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5098"
+      }
+    },
+    {
+      "number": 5099,
+      "title": "Pull request 5099",
+      "html_url": "https://github.com/example-org/busy-repo/pull/5099",
+      "state": "open",
+      "created_at": "2024-01-05T03:00:00Z",
+      "user": {
+        "login": "example-user"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/example-org/busy-repo/pulls/5099",
+        "html_url": "https://github.com/example-org/busy-repo/pull/5099"
+      }
+    }
+  ]
+}
